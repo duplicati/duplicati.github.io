@@ -9,23 +9,18 @@ title: "Duplicati"
 <div class="tiles">
 
 <div class="tile">
-  <h2 class="post-title">Key point 1</h2>
-  <p class="post-excerpt">Some key point</p>
+  <h2 class="post-title">Free software</h2>
+  <p class="post-excerpt">Duplicati is free software. You can download and use it for free even for commercial purposes. And its source code is available in public and licensed under LGPL.</p>
 </div>
 
 <div class="tile">
-  <h2 class="post-title">Content First</h2>
-  <p class="post-excerpt">Designed to put the focus on you and your writing. Headers, navigation, sidebars, and footers have been purposely deemphasized.</p>
+  <h2 class="post-title">Supported Backends</h2>
+  <p class="post-excerpt">Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like OneDrive, Amazon S3, Google Drive and many others. [Complete list]</p>
 </div>
 
 <div class="tile">
-  <h2 class="post-title">Customizable</h2>
-  <p class="post-excerpt">Packed with layouts and modules. Include Disqus comments, social sharing buttons, and table of contents on one or all pages.</p>
-</div>
-
-<div class="tile">
-  <h2 class="post-title">Extensible</h2>
-  <p class="post-excerpt">Compatible with popular libraries like <a href="http://bourbon.io">Bourbon</a>, <a href="http://neat.bourbon.io/">Neat</a>, and <a href="http://github.com/octopress/octopress">Octopress</a> to help build and deploy your site with ease.</p>
+  <h2 class="post-title">Supported Platforms</h2>
+  <p class="post-excerpt">Duplicati runs on Windows, Linux, and MacOS. It requires .NET 4.5 or Mono.</p>
 </div>
 
 </div>
