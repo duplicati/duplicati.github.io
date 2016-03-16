@@ -24,9 +24,4 @@ image:
   <p class="post-excerpt">Duplicati is free software. You can download and use it for free even for commercial purposes. And its source code is available in public and licensed under LGPL.</p>
 </div>
 
-<div class="tile">
-  <h2 class="post-title">Platforms</h2>
-  <p class="post-excerpt">Duplicati runs on Windows, Linux, and MacOS. It requires .NET 4.5 or [Mono].</p>
-</div>
-
 </div>
