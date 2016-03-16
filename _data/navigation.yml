@@ -1,0 +1,26 @@
+# Site navigation links
+
+- title: Home
+  url: /
+  excerpt:
+  image:
+
+- title: News
+  url: /articles
+  excerpt: All the news
+  image:    
+
+- title: Guides
+  url: /articles
+  excerpt: Quickstart guides
+  image:    
+
+- title: Download
+  url: https://github.com/duplicati/duplicati/releases
+  excerpt: Get a build of Duplicati
+  image:
+
+- title: Source code
+  url: https://github.com/duplicati/duplicati
+  excerpt: Look at Duplicati source code and collaborate on GitHub
+  image:
