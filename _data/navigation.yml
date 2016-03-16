@@ -10,9 +10,9 @@
   excerpt: All the news
   image:    
 
-- title: Guides
-  url: /articles
-  excerpt: Quickstart guides
+- title: Facts
+  url: /facts
+  excerpt: Technical fact sheet
   image:    
 
 - title: Download
