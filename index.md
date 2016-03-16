@@ -11,7 +11,13 @@ image:
 
 <div class="tile">
   <h2 class="post-title">Features</h2>
-  <p class="post-excerpt">Backup of files and folders, strong AES encryption, incremental backups, data deduplication, built-in scheduler, web-based interface, command line interface, auto-updater.</p>
+  <p class="post-excerpt">
+    * Backup of files and folders
+    * Strong AES-256 encryption
+    * Incremental backups
+    * Data deduplication
+    * Built-in scheduler
+    * Web interface & command line</p>
 </div>
 
 <div class="tile">
@@ -21,7 +27,7 @@ image:
 
 <div class="tile">
   <h2 class="post-title">Free software</h2>
-  <p class="post-excerpt">Duplicati is free software. You can download and use it for free even for commercial purposes. And its source code is available in public and licensed under LGPL.</p>
+  <p class="post-excerpt">Duplicati is free software. You can download and use it for free even for commercial purposes. Source code is licensed under LGPL. Duplicati runs under Windows, Linux, MacOS. It requires .NET 4.5 or Mono.</p>
 </div>
 
 </div>
