@@ -13,32 +13,44 @@ image:
 {% include toc.html %}
 
 ## Strong Encryption
-Duplicati uses strong AES-256 encryption to protect your backups. All data is encrypted locally and afterwards transferred to the remote storage system. Alternatively, you can use GPG to encrypt your backup data.
+Duplicati uses strong AES-256 encryption to protect your backups. It is designed following the TNO principle: Trust No One. For instance, all data is encrypted locally before it is transferred to the remote storage system. The password/key to your backup never leaves your computer. Instead of AES-256 you can use a local GPG instance to encrypt your backup.
 
 
 ## Incremental Backups
-Duplicati performs a full backup initially. Afterwards, Duplicati updates the initial backup by adding the changed data. If only tiny parts of a huge file have changed, only those tiny parts have to be transferred and stored on the remote server. This saves time and space.
+Duplicati performs a full backup initially. Afterwards, Duplicati updates the initial backup by adding the changed data only. That means, if only tiny parts of a huge file have changed, only those tiny parts are added to the backup. This saves time and space and the backup size usually grows slowly. 
+
 
 ## Compression
-All backup data is compressed before it is encrypted and uploaded. Duplicati supports Zip/Deflate or 7z/LZMA2 compression. Duplicati detects files that are compressed already and does not compress them again. 
+All backup data is compressed before it is encrypted and uploaded. Duplicati supports Zip/Deflate or 7z/LZMA2 compression. For performance reasons, Duplicati detects files that are compressed already and adds those as they are to the Zip or 7z archives. For example, media files such as mp3, jpeg or mkv files contain very well compressed data already. 
+
 
 ## Deduplication
-Duplicati stores data blocks. If two files share a data block this will only be stored once. As a result of that, the size of the backup can be much smaller than the size of the source files.
+Duplicati analyzes the content of files and stores data blocks. Due to that, Duplicati will find duplicate files and similar content and store this only once in the backup. As Duplicati analyzes the content of files it can handle situations very well if files and folders are moved or renamed. As the content does not change, the next backup will be tiny.
+
+
+## Meta Data
+Duplicati also stored the meta data of files in the backup. When backup files are restored, the timestamps (last modified, created) will also be restored as well as the system's access permissions. To avoid inaccessible files e.g. when the system user's have changed, restoring of access permissions is optional.
+
 
 ## Fail-Safe Design
-Duplicati is designed to handle all kinds of issues: Network hick-ups, interrupted backups, unavailable orcorrupt storage systems. 
+Duplicati is designed to handle various kinds of issues: Network hick-ups, interrupted backups, unavailable orcorrupt storage systems. Even if a backup run was interrupted, it can be continued at a later time. Duplicati will then backup everything that was missed in the last backup. And even if remote files get corrupted, Duplicati can try to repair them if local data is still present or restore as much as possible.
+
 
 ## Online Backup Verification
-Whenever Duplicati performs a backup, it downloads a random set of backup files, restores their content and checks their integrity. That way you can be sure that your backup is still intact when you need it.
+Duplicati is built to work with simple storage systems. Many providers offer compatible storages and often at cheap prices. As a downside of this, some storage system might store corrupt data. And most people usually notice that, when they need their backup to restore files they have lost and restoring fails. To avoid that Duplicati regularly downloads a random set of backup files, restores their content and checks their integrity. That way you can detect problems with your online storage before you run into troubles.
+
 
 ## Web Interface
-Duplicati comes with a web interface. This can be used to configure and run backups on your local machine. But is also allows you to configure and run backups on headless machines like a Network Attached Storage (NAS) to access Duplicati on a remote computer.
+Duplicati comes with a web interface. It can be used to configure and run backups on your local machine. But is also allows you to configure and run backups remotely on headless machines like a Network Attached Storage (NAS). Just install Duplicati on your NAS and configure and run it through its web interface.
+
 
 ## Command Line Interface
-To add backup functionality to your scripts, there is a `Duplicati.Commandline.exe` which provides you with all features of Duplicati in a terminal window.
+We did not forget about system admins! Duplicati offers all functions and feature via `Duplicati.Commandline.exe`. This allows you to add backup features to your scripts or run backups in a terminal window.
+
 
 ## Scheduler
-The built-in scheduler runs your backups automatically at the times and intervals you define. One backup everyday, at the weekend, every hour or even 3pm every 3rd Monday is possible.
+The built-in scheduler runs your backups automatically at the times and intervals you define. One backup everyday, at the weekend, every hour or even 3pm every 3rd Monday is possible. And even if a date is missed, Duplicati will run the job as soon as possible.
+
 
 ## Auto-Updater
 Duplicati comes with a built-in updater that downloads and installs the latest avaialable version for you. That way you can easily keep Duplicati up-to-date.
