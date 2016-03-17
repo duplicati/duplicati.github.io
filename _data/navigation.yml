@@ -7,20 +7,15 @@
 
 - title: News
   url: /news
-  excerpt: All the news
+  excerpt: 
   image:    
 
 - title: Fact Sheet
   url: /facts
-  excerpt: Fact Sheet
+  excerpt:
   image:    
-
-- title: Download
-  url: https://github.com/duplicati/duplicati/releases
-  excerpt: Get a build of Duplicati
-  image:
 
 - title: Get in touch
   url: /getintouch
-  excerpt: Get in touch with us
+  excerpt:
   image:
