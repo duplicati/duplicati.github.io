@@ -3,7 +3,7 @@ layout: archive
 title: "Get In Touch"
 date: 2016-03-16T11:39:03-04:00
 modified:
-excerpt: "Get in touch with us"
+excerpt: ""
 tags: []
 image:
   feature:
