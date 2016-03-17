@@ -12,11 +12,11 @@ image:
 
 {% include toc.html %}
 
-#### Basic: Strong Encryption
+### Basic: Strong Encryption
 Duplicati uses strong AES-256 encryption to protect your backups. It is designed following the TNO principle: Trust No One. For instance, all data is encrypted locally before it is transferred to the remote storage system. The password/key to your backup never leaves your computer. Instead of AES-256 you can use a local GPG instance to encrypt your backup.
 
 
-#### Basic: Incremental Backups
+### Basic: Incremental Backups
 Duplicati performs a full backup initially. Afterwards, Duplicati updates the initial backup by adding the changed data only. That means, if only tiny parts of a huge file have changed, only those tiny parts are added to the backup. This saves time and space and the backup size usually grows slowly. 
 
 
