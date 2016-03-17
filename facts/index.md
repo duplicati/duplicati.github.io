@@ -3,7 +3,7 @@ layout: archive
 title: "Fact Sheet"
 date: 2016-03-16T11:39:03-04:00
 modified:
-excerpt: "A collection of feature of Duplicati."
+excerpt: "Features and Technology"
 tags: []
 image:
   feature:
