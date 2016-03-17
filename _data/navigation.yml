@@ -20,7 +20,7 @@
   excerpt: Get a build of Duplicati
   image:
 
-- title: Source code
-  url: https://github.com/duplicati/duplicati
-  excerpt: Look at Duplicati source code and collaborate on GitHub
+- title: Get in touch
+  url: /getintouch
+  excerpt: Get in touch with us
   image:
