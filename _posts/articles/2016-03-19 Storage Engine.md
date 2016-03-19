@@ -32,4 +32,4 @@ From time to time, Duplicati will notice that there are a few bags that contain 
 And to say the good news again: There is no need to upload full backups regularly. This makes Duplicati a perfect choice for incremental backups of large media libraries. 
 
 ## Whitepaper
-We have published technical details in a whitepaper "block based storage format (for secure, online backups)".
+We have published technical details in a whitepaper [A block-based storage model for remote online backups in a trust-no-one environment)](Block-basedstorageformat.pdf).
