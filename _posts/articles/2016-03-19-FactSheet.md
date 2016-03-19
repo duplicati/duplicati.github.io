@@ -9,6 +9,9 @@ comments: true
 ads: false
 ---
 
+This fact sheet explains the basic features of Duplicati 2.0.
+
+
 {% include toc.html %}
 
 ## Basic: Strong Encryption
