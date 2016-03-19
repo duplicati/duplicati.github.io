@@ -1,13 +1,10 @@
 ---
 layout: archive
-title: "Articles"
+title: "Technical Stuff"
 date: 2014-05-30T11:39:03-04:00
 modified:
-excerpt: "A collection of thoughts, inspiration, mistakes, and other minutia."
+excerpt: "A collection of white papers and guides."
 tags: []
-image:
-  feature:
-  teaser:
 ---
 
 <div class="tiles">
