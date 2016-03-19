@@ -7,6 +7,10 @@ modified: 2016-03-18
 tags: [overview]
 comments: true
 ads: false
+image:
+  feature:
+  teaser:
+  thumb:
 ---
 
 This fact sheet explains how Duplicati 2.0 works and what its features are.
