@@ -9,7 +9,7 @@ comments: true
 ads: false
 ---
 
-This fact sheet explains the basic features of Duplicati 2.0.
+This fact sheet explains how Duplicati 2.0 works and what its features are.
 
 
 {% include toc.html %}
