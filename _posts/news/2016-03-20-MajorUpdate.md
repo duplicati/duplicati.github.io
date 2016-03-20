@@ -6,7 +6,7 @@ modified: 2016-03-18T16:49:00
 tags: [news]
 comments: true
 ads: true
-excerpt: Duplicati is now auto-updated through four channels. The channels are stable, beta, experimental, and canary.
+excerpt: We are rolling out a major update. Channels, new UI, new source picker, improved restore speed, usage statistics, more backends.
 ---
 
 We are just rolling out a major update to Duplicati. Besides lots of small changes there is a list of new features, that now become available through the built-in auto-updater.
