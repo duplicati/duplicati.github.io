@@ -11,10 +11,8 @@ image:
   feature:
   teaser:
   thumb:
+excerpt: This fact sheet tells you more about how Duplicati 2.0 works and what its features are.
 ---
-
-This fact sheet explains how Duplicati 2.0 works and what its features are.
-
 
 {% include toc.html %}
 
