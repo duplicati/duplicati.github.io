@@ -1,12 +1,12 @@
 ---
 layout: article
-title: "Channels"
+title: "Update 2.0.1.7_experimental"
 categories: news
-modified: 2016-03-18T16:49:00
+modified: 2016-03-19T16:49:00
 tags: [news]
 comments: true
 ads: true
-excerpt: We are rolling out a major update. Channels, new UI, new source picker, improved restore speed, usage statistics, more backends.
+excerpt: We are rolling out a major update: Channels, new UI, new source picker, improved restore speed, usage statistics, more backends.
 ---
 
 We are just rolling out a major update to Duplicati. Besides lots of small changes there is a list of new features, that now become available through the built-in auto-updater.
