@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Update 2.0.1.7_experimental"
+title: "Update 2.0.1.7 experimental"
 categories: news
 modified: 2016-03-19T16:49:00
 tags: [news]
