@@ -6,9 +6,9 @@ modified: 2016-03-16T16:49:00
 tags: [overview]
 comments: true
 ads: false
----
+excerpt: Duplicati 2.0 comes with an innovative block-based storage engine. Find out what that means, how it works and why it is so much better than the old approach of Duplicati 1.3.
 
-Duplicati 2.0 comes with an innovative block-based storage engine. Find out what that means, how it works and why it is so much better than the old approach of Duplicati 1.3.
+---
 
 ## Background
 
