@@ -35,18 +35,35 @@ So, today you are getting a new new user interface which does not only come with
 
 Here is a screenshot of the new new user interface. And a second one that shows, that it will also work on small screens.
 
+<div class="lightgallery">
+  <a href="../../images/news/2016-03-20-New-UI.jpg" data-sub-html="New UI design by Alexander Franzelin">
+      <img src="../../images/news/2016-03-20-New-UI.jpg" alt="Screenshot new UI design" />
+  </a>
+  <a href="../../images/news/2016-03-20-New-UI-mobile.jpg" data-sub-html="#caption2" >
+      <img src="../../images/news/2016-03-20-New-UI-mobile.jpg" alt="Screenshot new UI design" />
+  </a>
+</div>
+
+<div style="display: none" id="caption2">New UI design by Alexander Franzelin</div>
+
+<!--
 ![Screenshot new UI design](../../images/news/2016-03-20-New-UI.jpg "New UI design by Alexander Franzelin")
-
-
 ![Screenshot new UI design on mobile device](../../images/news/2016-03-20-New-UI-mobile.jpg "New UI design on mobile device by Alexander Franzelin")
-
+-->
 
 ## New source picker
 
 We have a new source picker. The picker now allows you to easily pick any folders and files. It has a list of favourite folders and a list of folders on your computer. You can still add paths that are not listed by just typing them in. To quickly remove folders and files from you backup there is a list with all files and folders that have been selected.
 
-![Screenshot of new source picker](../../images/news/2016-03-20-New-SourcePicker.jpg "New Source Picker")
+<div class="lightgallery">
+  <a href="../../images/news/2016-03-20-New-SourcePicker.jpg" data-sub-html="New Source Picker">
+      <img src="../../images/news/2016-03-20-New-SourcePicker.jpg" alt="Screenshot of new source picker" />
+  </a>
+</div>
 
+<!--
+![Screenshot of new source picker](../../images/news/2016-03-20-New-SourcePicker.jpg "New Source Picker")
+-->
 
 ## Restore speed
 
