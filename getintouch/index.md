@@ -30,6 +30,6 @@ Besides Kenneth and René many people have contributed to Duplicati. Some have c
 #### Donations
 Duplicati 2.0 is run by volunteers who spend their spare time to develop great backup software. As the software is given away for free, the project totally relies on donations to run its services. You can donate to the project 
 * Donate via [PayPal](https://goo.gl/5TJ4yB)
-* Donate via [Bitcoin](bitcoin:1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN)
+* Donate via Bitcoin bitcoin:1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN
 
 why is this not working?
