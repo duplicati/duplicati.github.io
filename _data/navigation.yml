@@ -4,16 +4,16 @@
   url: /
   excerpt:
   image:
-  
-- title: Screenshots
-  url: /screenshots
-  excerpt:
-  image:   
 
 - title: News
   url: /news
   excerpt: 
-  image:    
+  image:
+  
+- title: Screenshots
+  url: /screenshots
+  excerpt:
+  image: 
 
 - title: Articles
   url: /articles
