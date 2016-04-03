@@ -21,15 +21,16 @@ Besides Kenneth and René many people have contributed to Duplicati. Some have c
 
 
 #### Touch Points
-* To report issues with Duplicati 2.0 or support development, please [Visit us on Github](https://github.com/duplicati/duplicati)
-* To ask for help, there is a [Diskussion Group](http://groups.google.com/group/duplicati)
-* To keep up-to-date about what's going on, you can also follow us on [Facebook](http://www.facebook.com/pages/Duplicati/105118456272281) or [Google+](https://plus.google.com/105271984558189185842)
-* For very specific inquiries, you can send us an email to [Kenneth](mailto:kenneth@duplicati.com) or [René](mailto:rene@duplicati.com)
+  * To report issues with Duplicati 2.0 or support development, please [Visit us on Github](https://github.com/duplicati/duplicati)
+  * To ask for help, there is a [Diskussion Group](http://groups.google.com/group/duplicati)
+  * To keep up-to-date about what's going on, you can also follow us on [Facebook](http://www.facebook.com/pages/Duplicati/105118456272281) or [Google+](https://plus.google.com/105271984558189185842)
+  * For very specific inquiries, you can send us an email to [Kenneth](mailto:kenneth@duplicati.com) or [René](mailto:rene@duplicati.com)
 
 
 #### Donations
 Duplicati 2.0 is run by volunteers who spend their spare time to develop great backup software. As the software is given away for free, the project totally relies on donations to run its services. You can donate to the project 
-* Donate via [PayPal](https://goo.gl/5TJ4yB)
-* Donate via Bitcoin bitcoin:1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN
 
-why is this not working?
+  * Donate via [PayPal](https://goo.gl/5TJ4yB)
+  * Donate via [Bitcoin 1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN](bitcoin:1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN)
+
+
