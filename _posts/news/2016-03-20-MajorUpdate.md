@@ -37,14 +37,12 @@ Here is a screenshot of the new new user interface. And a second one that shows,
 
 <div class="lightgallery">
   <a href="../../images/news/2016-03-20-New-UI.jpg" data-sub-html="New UI design by Alexander Franzelin">
-      <img src="../../images/news/2016-03-20-New-UI.jpg" alt="Screenshot new UI design" />
+      <img src="../../images/news/2016-03-20-New-UI-thumb.jpg" alt="Screenshot new UI design" />
   </a>
-  <a href="../../images/news/2016-03-20-New-UI-mobile.jpg" data-sub-html="#caption2" >
-      <img src="../../images/news/2016-03-20-New-UI-mobile.jpg" alt="Screenshot new UI design" />
+  <a href="../../images/news/2016-03-20-New-UI-mobile.jpg" data-sub-html="Works on mobile devices, too." >
+      <img src="../../images/news/2016-03-20-New-UI-mobile-thumb.jpg" alt="Screenshot new UI design" />
   </a>
 </div>
-
-<div style="display: none" id="caption2">New UI design by Alexander Franzelin</div>
 
 <!--
 ![Screenshot new UI design](../../images/news/2016-03-20-New-UI.jpg "New UI design by Alexander Franzelin")
@@ -57,7 +55,7 @@ We have a new source picker. The picker now allows you to easily pick any folder
 
 <div class="lightgallery">
   <a href="../../images/news/2016-03-20-New-SourcePicker.jpg" data-sub-html="New Source Picker">
-      <img src="../../images/news/2016-03-20-New-SourcePicker.jpg" alt="Screenshot of new source picker" />
+      <img src="../../images/news/2016-03-20-New-SourcePicker-thumb.jpg" alt="Screenshot of new source picker" />
   </a>
 </div>
 
