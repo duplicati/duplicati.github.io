@@ -11,7 +11,7 @@ image:
 
 <div class="tile">
   <h2 class="post-title">Features</h2>
-  <p class="post-excerpt">Backup files and folders with strong AES-256 encryption. Save space with incremental backups and data deduplication. Run backups on any machine through the web-based interface or via command line interface. Duplicati has a built-in scheduler and auto-updater. <a alt="Duplicati Fact Sheet" href="http://duplicati.github.io/facts/">Learn more</a></p>
+  <p class="post-excerpt">Backup files and folders with strong AES-256 encryption. Save space with incremental backups and data deduplication. Run backups on any machine through the web-based interface or via command line interface. Duplicati has a built-in scheduler and auto-updater. <a alt="Duplicati Fact Sheet" href="http://duplicati.github.io/articles/FactSheet/">Learn more</a></p>
 </div>
 
 <div class="tile">
