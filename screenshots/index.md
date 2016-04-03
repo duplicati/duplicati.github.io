@@ -10,7 +10,6 @@ image:
   teaser:
 ---
 
-#### Screenshots
 <div class="lightgallery">
   <a href="../../images/news/2016-03-20-New-UI.jpg" data-sub-html="The main window of Duplicati 2.0">
       <img src="../../images/news/2016-03-20-New-UI-thumb.jpg" alt="Screenshot of main window" />
