@@ -15,11 +15,19 @@ Duplicati is a project that is run by volunteers who think that everyone's priva
 
 
 #### People behind Duplicati
-The Duplicati project was started by **Kenneth Skovhede** in 2008. It started as a port of backup software to Windows, but quickly became a huge rewrite. In 2011 **René Stach** joined the project. Kenneth and René then redesigned Duplicati from scratch and called it Duplicati 2.0. Besides Kenneth and René many people have contributed to Duplicati. Some have committed source code, some have tested and reported issues, other have donated some money.
+The Duplicati project was started by **Kenneth Skovhede** in 2008. Kenneth wanted to port duplicity from Linux to Windows. The "simple port" soon became a huge rewrite. In 2011 **René Stach** joined the project. Kenneth and René then decided to redesign Duplicati from scratch and drop compatibility to duplicity and Duplicati 1.3 in favour of better functionality. The redesigned version was made available as Duplicati 2.0.
+
+Besides Kenneth and René many people have contributed to Duplicati. Some have committed source code, some have tested and reported issues, others have donated some money which the project uses e.g. to run specific online services around Duplicati. 
 
 
 #### Touch Points
-* Slack chat?
-* Github
-* Google Groups
-* Direct email
+* To report issues with Duplicati 2.0 or support development, please [Visit us on Github](https://github.com/duplicati/duplicati)
+* To ask for help, there is a [Diskussion Group](http://groups.google.com/group/duplicati)
+* To keep up-to-date about what's going on, you can also follow us on [Facebook](http://www.facebook.com/pages/Duplicati/105118456272281) or [Google+](https://plus.google.com/105271984558189185842)
+* For very specific inquiries, you can send us an email to [Kenneth](mailto:kenneth@duplicati.com) or [René](mailto:rene@duplicati.com)
+
+
+#### Donations
+Duplicati 2.0 is run by volunteers who spend their spare time to develop great backup software. As the software is given away for free, the project totally relies on donations to run its services. You can donate to the project 
+* [Donate via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40hexad%2edk&item_name=Duplicati%20Donation&no_shipping=2&no_note=1&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=US)
+* [Donate via Bitcoin](bitcoin:1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN)
