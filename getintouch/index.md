@@ -29,5 +29,5 @@ Besides Kenneth and René many people have contributed to Duplicati. Some have c
 
 #### Donations
 Duplicati 2.0 is run by volunteers who spend their spare time to develop great backup software. As the software is given away for free, the project totally relies on donations to run its services. You can donate to the project 
-* [Donate via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40hexad%2edk&item_name=Duplicati%20Donation&no_shipping=2&no_note=1&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=US")
-* [Donate via Bitcoin](bitcoin:1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN) to 1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN
+* Donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40hexad%2edk&item_name=Duplicati%20Donation&no_shipping=2&no_note=1&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=US")
+* Donate via [Bitcoin](bitcoin:1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN) to 1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN
