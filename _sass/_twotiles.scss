@@ -9,7 +9,7 @@
     @include fill-parent;
   }
   @include media(new-breakpoint(min-width em(480) 12)) {
-    @include span-columns(3);
+    @include span-columns(4);
     @include omega(2n);
   }
   .entry-date {
