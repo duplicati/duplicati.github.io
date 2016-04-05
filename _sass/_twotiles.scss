@@ -2,7 +2,7 @@
    Tiles
    ========================================================================== */
 
-.tile {
+.twotile {
   @include outer-container;
   margin-bottom: $gutter;
   @include media($micro) {
