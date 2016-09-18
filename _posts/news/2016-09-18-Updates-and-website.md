@@ -9,7 +9,7 @@ ads: true
 excerpt: A few things have happened during the last months. A website went live and we rolled out quite a few updates. Here is a short summary.
 ---
 
-A few things have happened during the last months. Here is a short update.
+ A few things have happened during the last months. A website went live and we rolled out quite a few updates. Here is a short summary.
 
 ### New website
 
