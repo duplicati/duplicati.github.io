@@ -5,7 +5,6 @@ categories: news
 modified: 2016-09-18T15:49:00
 tags: [news]
 comments: true
-ads: true
 excerpt: A few things have happened during the last months. A website went live and we rolled out quite a few updates. Here is a short summary.
 ---
 

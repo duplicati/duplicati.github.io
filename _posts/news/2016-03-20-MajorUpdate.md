@@ -5,7 +5,6 @@ categories: news
 modified: 2016-03-19T16:49:00
 tags: [news]
 comments: true
-ads: true
 excerpt: We are rolling out a major update. Channels, new UI, new source picker, improved restore speed, usage statistics, more backends.
 ---
 
