@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "New website and updates"
+title: "New website and update 2.0.1.23"
 categories: news
 modified: 2016-09-18T15:49:00
 tags: [news]
@@ -17,7 +17,7 @@ We have launched a new website. First, we found it was time to come up with a mu
 
 ### Technical update
 
-A few versions have been rolled with many changes. Here is a short summary of the highlights:
+A few versions have been rolled with many changes. Here is a short summary of the highlights up to version 2.0.1.23:
 * Graphical updates to make the UI look a bit nicer than it is already
 * Backends: OneDrive for Business added
 * Exporting feature is nice but makes more sense when importing is available, too. :-)
