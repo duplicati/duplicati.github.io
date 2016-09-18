@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Channels"
+title: "New website and updates"
 categories: news
 modified: 2016-09-18T15:49:00
 tags: [news]
