@@ -65,7 +65,7 @@ image:
 
 <div class="twotile">
   <h2 class="post-title">Multi-core and performance</h2>
-  <p class="post-excerpt">To restore your data as fast as possible, Duplicati uses multi-core, hardware decryption and on-the-fly decompression.
+  <p class="post-excerpt">To restore your data as fast as possible, Duplicati uses multi-core, hardware decryption and on-the-fly decompression.</p>
 </div>
 
 </div>
