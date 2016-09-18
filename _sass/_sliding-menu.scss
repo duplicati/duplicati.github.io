@@ -9,10 +9,10 @@
 .slide {
     transform: translateX(-100%);
     @include media($medium) {
-      transform: translateX(em(-600));
+      transform: translateX(em(-400));
     }
     @include media($large) {
-      transform: translateX(em(-900));
+      transform: translateX(em(-600));
     }
   }
 
@@ -44,10 +44,10 @@
     background: $danger-color;
     transform: translateX(0); /* don't slide close button on small screens only */
     @include media($medium) {
-      transform: translateX(em(-600)); /* reset slide position */
+      transform: translateX(em(-400)); /* reset slide position */
     }
     @include media($large) {
-      transform: translateX(em(-900)); /* reset slide position */
+      transform: translateX(em(-600)); /* reset slide position */
     }
   }
 }
@@ -66,10 +66,10 @@
   text-align: left;
   @include size(100% 100%);
   @include media($small) {
-    width: em(600);
+    width: em(400);
   }
   @include media($large) {
-    width: em(900);
+    width: em(600);
   }
   transform: translateX(100%);
   transition: $sliding-menu-animation;
@@ -94,9 +94,9 @@
     }
     span {
       display: block;
-      @include font-size(32,no,1);
+      @include font-size(16,no,1);
       @include media($small) {
-        @include font-size(48,no,1);
+        @include font-size(18,no,1);
       }
       font-family: $base-font;
       text-transform: uppercase;
@@ -116,10 +116,10 @@
   li {
     display: block;
     position: relative;
-    padding-bottom: 1em;
-    min-height: 70px;
+    padding-bottom: 0.01em;
+    min-height: 20px;
     @include media($small) {
-      min-height: 100px;
+      min-height: 40px;
     }
   }
   .menu-item {
@@ -145,13 +145,13 @@
     }
     .title {
       display: block;
-      margin-left: 60px;
+      margin-left: 40px;
       font-family: $alt-font;
-      @include font-size(24,no);
+      @include font-size(16,no);
       font-weight: 700;
       @include media($small) {
-        margin-left: 170px;
-        @include font-size(32,no);
+        margin-left: 80px;
+        @include font-size(18,no);
       }
     }
     .excerpt {
