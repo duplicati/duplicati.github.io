@@ -6,7 +6,7 @@ modified: 2016-09-18T15:49:00
 tags: [news]
 comments: true
 ads: true
-excerpt: Last months' summary
+excerpt: A few things have happened during the last months. Here is a short update.
 ---
 
 A few things have happened during the last months. Here is a short update.
