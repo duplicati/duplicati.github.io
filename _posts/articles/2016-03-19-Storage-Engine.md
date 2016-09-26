@@ -12,15 +12,17 @@ excerpt: Duplicati 2.0 comes with an innovative block-based storage engine. Find
 ## Background
 
 In Duplicati 1.3 backups were done and stored the following way:
+
 * There was always a full backup followed by incremental backups. 
 * The latest incremental backup was based on all previous backups. To restore latest files, all backup files were required. 
 * Files were written into compressed archives which were encrypted afterwards.
 * The archives of incremental backups only contained the changes to the previous files.
 
 This approach had some issues:
+
 1. The chains of full and incremental backups could get very long. As a result of that the likeliness increased that the backup could be lost due to data corruption.
-1. After a loss of data, users usually restore the latest version. This required to download the entire history of all changes and restoring went through the same history again making restoring slow.
-1. The recommended, regular full backups were a <insert bad word here>.
+2. After a loss of data, users usually restore the latest version. This required to download the entire history of all changes and restoring went through the same history again making restoring slow.
+3. The recommended, regular full backups were a &lt;insert bad word here&gt;.
 
 ## New Storage Format
 
