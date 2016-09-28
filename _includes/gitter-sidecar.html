@@ -1,0 +1,8 @@
+{% if site.owner.gitterroom $}
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: '{{ site.owner.gitterroom }}'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+{% endif %}
