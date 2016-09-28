@@ -52,15 +52,16 @@
 			position: relative;
 			display: block;
 			margin-right: $gutter;
-			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
+			padding: 0;
 			height: $masthead-height;
 			font-family: $alt-font;
+
 			&:before,
 			&:after {
 				content: '';
 				display: block;
 				position: absolute;
-				top: 0;
+				top: $masthead-height * .45;
 				left: 0;
 				height: 2px;
 				@include transition(width 0.3s);
@@ -71,7 +72,11 @@
 			}
 			&:after {
 				width: 0;
-				background: $black;
+				background: $primary-color;
+			}
+			&:active,
+			&:hover {
+				color: $primary-color;
 			}
 			&:active:after,
 			&:hover:after {
@@ -106,7 +111,6 @@
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $black;
-			text-transform: uppercase;
 		}
 	}
 }
@@ -115,7 +119,10 @@
 
 .bottom-menu {
 	@include clearfix;
+	padding-left: $gutter;;
+	padding-right: $gutter;
 	font-weight: 700;
+	background-color: $bottom-menu-color;
 	a {
 		color: lighten($black,60);
 	}
@@ -258,10 +265,13 @@
 		@include font-size(20);
 		@include media($medium) {
 			@include font-size(24);
+			line-height: em(25);
 		}
 		@include media($large) {
 			@include font-size(32);
+			line-height: em(25);
 		}
+		line-height: em(25);
 	}
 }
 // page header
@@ -337,7 +347,7 @@
 	@include outer-container;
 	margin-top: (3 * (0px + $doc-line-height));
 	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
-	padding-bottom: $gutter;
+	padding-bottom: 0px;
 	font-family: $alt-font;
   /* Copyright text */
 	.copyright {

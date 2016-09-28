@@ -15,7 +15,6 @@
 	color: $white;
 	text-decoration: none;
 	border: 0 !important;
-	border-radius: 10 * $border-radius;
 	@include transition(background 0.2s, border 0.2s);
 	&:hover {
 		color: $white;

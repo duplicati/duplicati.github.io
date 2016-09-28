@@ -18,9 +18,20 @@
   }
   .post-title {
     @include font-size(18,no);
+    margin-left: em(60);
   }
   .post-excerpt {
     @include font-size(16);
+    margin-left: em(70);
+    margin-top: em(4);
+    color: lighten($text-color,40);
+  }
+  .post-icon {
+    float: left;
+    vertical-align: top;
+    @include media($micro) {
+      margin-top: em(0);
+    }      
   }
   .post-teaser {
     position: relative;

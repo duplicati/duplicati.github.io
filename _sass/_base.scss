@@ -10,6 +10,7 @@ body {
 	font-family: $base-font;
 	color: $text-color;
 	@include font-size(16);
+	margin: 0px;
 }
 
 p {
@@ -133,7 +134,7 @@ figure {
       /* Image hover animation */
       @include transition(box-shadow 0.3s);
       &:hover {
-        box-shadow: 0 0 10px rgba($black, .20);
+        box-shadow: 0 0 10px rgba($primary-color, .20);
       }
     }
   }
