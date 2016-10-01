@@ -1,17 +1,30 @@
 <footer role="contentinfo" id="site-footer">
-	<nav role="navigation" class="menu bottom-menu">
-		<ul class="menu-item">
-		{% for link in site.data.footer %}
-      {% if link.url contains 'http' %}
-        {% assign domain = '' %}
-        {% else %}
-        {% assign domain = site.url %}
-      {% endif %}
-			<li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-		{% endfor %}
-		</ul>
-	</nav><!-- /.bottom-menu -->
-	<!--
-	<p class="copyright">&#169; {{ site.time | date: '%Y' }} <a href="{{ site.url }}">{{ site.title }}</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
-	-->
+    <nav role="navigation" class="menu bottom-menu">
+        <div class="inner-float">
+          {%if site.owner.gitterroom %}
+          <ul class="menu-item">
+            <li class="first btn" id="sidecar-target">Open chat</li>
+          </ul>
+          {% endif %}
+
+            {% for group in site.data.footer %}
+            <ul class="menu-item">
+                <li class="first">{{ group.title }}:</li>
+              {% for link in group.items %}
+                {% if link.url contains 'http' %}
+                  {% assign domain = '' %}
+                {% else %}
+                  {% assign domain = site.url %}
+                {% endif %}
+                <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}><img alt="{{ link.title }}" src="{{ site.url }}/{{ link.image }}" /></a></li>
+                {% endfor %}
+           </ul>
+          {% endfor %}
+
+
+        </div>
+    </nav><!-- /.bottom-menu -->
+    <!--
+    <p class="copyright">&#169; {{ site.time | date: '%Y' }} <a href="{{ site.url }}">{{ site.title }}</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+    -->
 </footer>

@@ -11,6 +11,7 @@
     {% include open-graph.html %}
     {% include analytics.html %}
     {% include gitter-sidecar.html %}
+    {% include favicon.html %}
     {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
@@ -40,7 +41,7 @@
       <div class="wrap page-lead-content">
         <h1>Duplicati 2.0</h1>
         <h2>Store securely encrypted backups on cloud storage services!<br />Free for Windows, macOS and Linux</h2>
-        <a href="https://github.com/duplicati/duplicati/releases" class="btn">Download 2.0 (experimental)</a> &nbsp;&nbsp; or &nbsp;&nbsp; <a href="
+        <a href="{{ site.url }}/download" class="btn">Download 2.0 (experimental)</a> &nbsp;&nbsp; or &nbsp;&nbsp; <a href="
 https://sites.google.com/a/duplicati.com/duplicati/home" class="btn-inverse">Have a look at  1.3.4</a>
       </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
@@ -64,7 +65,7 @@ https://sites.google.com/a/duplicati.com/duplicati/home" class="btn-inverse">Hav
       </div><!-- /#main -->
 
     </div>
-    
+
     {% include footer.html %}
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>

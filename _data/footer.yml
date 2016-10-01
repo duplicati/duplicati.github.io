@@ -1,16 +1,34 @@
 # Footer navigation links
-  
-- title: Donate via PayPal
-  url: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40hexad%2edk&item_name=Duplicati%20Donation&no_shipping=2&no_note=1&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=US
-  
-- title: Donate via Bitcoin
-  url: bitcoin:1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN 
-  
-- title: Visit us on Facebook
-  url: http://www.facebook.com/pages/Duplicati/105118456272281
-  
-- title: Visit us On Google+  
-  url: https://plus.google.com/105271984558189185842
 
-- title: Visit us On Gitter
-  url: https://gitter.im/duplicati/Lobby
+- title: Visit us on
+  items:
+  - title: Visit us on Facebook
+    image: images/facebook.png
+    url: http://www.facebook.com/pages/Duplicati/105118456272281
+    
+  - title: Visit us On Google+  
+    image: images/googleplus.png
+    url: https://plus.google.com/105271984558189185842
+
+  - title: Visit us On Google Groups
+    image: images/googlegroups.png
+    url: https://gitter.im/duplicati/Lobby
+
+  - title: Visit us On Gitter
+    image: images/gitter.png
+    url: https://gitter.im/duplicati/Lobby
+
+  - title: Visit us On GitHub
+    image: images/github.png
+    url: https://github.com/duplicati/duplicati
+
+- title: Donate
+  items:
+  - title: Donate via PayPal
+    image: images/paypal.png
+    url: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40hexad%2edk&item_name=Duplicati%20Donation&no_shipping=2&no_note=1&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=US
+    
+  - title: Donate via Bitcoin
+    image: images/bitcoin.png
+    url: bitcoin:1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN 
+

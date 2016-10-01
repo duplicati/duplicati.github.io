@@ -110,7 +110,7 @@
 			font-weight: 700;
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
-			color: $black;
+			color: $light-text-color;
 		}
 	}
 }
@@ -344,10 +344,11 @@
    ========================================================================== */
 
 #site-footer {
-	@include outer-container;
-	margin-top: (3 * (0px + $doc-line-height));
-	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
-	padding-bottom: 0px;
+	.inner-float {
+		@include outer-container;
+		padding-top: (0px + $doc-line-height) / 3;
+		padding-bottom: 0px;
+	}
 	font-family: $alt-font;
   /* Copyright text */
 	.copyright {

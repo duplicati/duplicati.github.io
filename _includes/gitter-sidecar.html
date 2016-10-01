@@ -1,7 +1,9 @@
 {% if site.owner.gitterroom %}
 <script>
   ((window.gitter = {}).chat = {}).options = {
-    room: '{{ site.owner.gitterroom }}'
+    room: '{{ site.owner.gitterroom }}',
+    activationElement: '#sidecar-target',
+    showChatByDefault: false
   };
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
