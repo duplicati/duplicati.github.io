@@ -421,3 +421,11 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     cursor: pointer;
     margin-bottom: 0px;
 }
+
+#or-space {
+  margin: 0px 20px 20px 20px;
+  display: block;
+  @include media($small) {
+    display: inline-block;
+  }  
+}
