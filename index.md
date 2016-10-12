@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 image:
-  feature: background-1600x800.jpg
+  parallax: background-1600x800.jpg
 ---
 
 
