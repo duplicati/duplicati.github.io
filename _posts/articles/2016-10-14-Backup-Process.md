@@ -58,11 +58,11 @@ To store the data from files, Duplicati creates a file named `duplicati-7af781d3
 You can see an overview of the process here:
 
 <div class="lightgallery">
-  <a href="../../images/article/duplicati-processing-a-block.png" data-sub-html="Overview of the backup process">
-      <img src="../../images/article/duplicati-processing-a-block-thumb.png" alt="Overview of the backup process" />
+  <a href="../../images/article/duplicati-processing-a-block.png" data-sub-html="Overview of the backup process for a single block">
+      <img src="../../images/article/duplicati-processing-a-block-thumb.png" alt="Overview of the backup process for a single block" />
   </a>
-  <a href="../../images/article/duplicati-processing-files-and-folders.png" data-sub-html="Overview of the backup process">
-      <img src="../../images/article/duplicati-processing-files-and-folders-thumb.png" alt="Overview of the backup process" />
+  <a href="../../images/article/duplicati-processing-files-and-folders.png" data-sub-html="Overview of the backup process for paths">
+      <img src="../../images/article/duplicati-processing-files-and-folders-thumb.png" alt="Overview of the backup process for paths" />
   </a>
 </div>
 
