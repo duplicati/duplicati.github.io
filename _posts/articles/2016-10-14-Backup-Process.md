@@ -29,7 +29,6 @@ C:\data
 |----> extra
        |-----> olddoc.txt, 2kb
        |-----> samevideo.mp4, 210kb
-
 ```
 
 
@@ -240,6 +239,17 @@ This means that an additional entry for `C:\data\extra\olddoc.tx` will occur in 
 ]
 ```
 
+And the new block will also be added to the `dblock` file:
+
+```
+qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4= (4kb)
+0td8NEaS7SMrQc5Gs0Sdxjb/1MXEEuwkyxRpguDiWsY= (100kb)
+PN2oO6eQudCRSdx3zgk6SJvlI5BquP6djt5hG4ZfRCQ= (100kb)
+uS/2KMSmm2IWlZ77JiHH1p/yp7Cvhr8CKmRHJNMRqwA= (10kb)
+Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA= (96b)
+R/XSNsb4ln/SkeJwFDd4Fv4OnW2QNIxMR4HItgg9qCE= (2kb)
+```
+
 
 Finally, the file `C:\data\extra\samevideo.mp4` is processed. Duplicati will treat each block individually, but figure out that it has already made a backup of this block and not emit it to the `dblock` file. After all 3 blocks are computed, it will then create a new block to store these 3 hashes, but also finds that such a block is already stored as well.
 
@@ -294,6 +304,7 @@ qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4= (4kb)
 PN2oO6eQudCRSdx3zgk6SJvlI5BquP6djt5hG4ZfRCQ= (100kb)
 uS/2KMSmm2IWlZ77JiHH1p/yp7Cvhr8CKmRHJNMRqwA= (10kb)
 Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA= (96b)
+R/XSNsb4ln/SkeJwFDd4Fv4OnW2QNIxMR4HItgg9qCE= (2kb)
 ```
 
 ## Further processing
