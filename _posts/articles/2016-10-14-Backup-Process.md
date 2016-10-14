@@ -46,7 +46,6 @@ C:\data\myvideo.mp4
 C:\data\extra\
 C:\data\extra\olddoc.txt
 C:\data\extra\samevideo.mp4
-
 ```
 
 For a real-world example, the list would be longer and would likely also have [multiple filters](../Filters), but for this example we omit these details.
