@@ -74,8 +74,8 @@ When Duplicati recieves the first entry, `C:\data\`, it notices that the entry i
 ```json
 [
   {
-	"type": "folder",
-	"path": "C:\\data\\"
+  "type": "folder",
+  "path": "C:\\data\\"
   }
 ]
 ```
@@ -98,17 +98,17 @@ qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4= (4kb)
 
 The file is then added to `filelist.json`, which now looks like this:
 
-```
+```json
 [
   {
-	"type": "Folder",
-	"path": "C:\\data\\"
+  "type": "Folder",
+  "path": "C:\\data\\"
   },
   {
-	"type": "File",
-	"path": "C:\\data\\mydoc.txt",
-	"size": 4096,
-	"hash": "qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4="
+  "type": "File",
+  "path": "C:\\data\\mydoc.txt",
+  "size": 4096,
+  "hash": "qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4="
   }
 ]
 ```
@@ -130,7 +130,7 @@ Additionally, a file hash is computed, but unlike a small file, the file hash is
 
 We could choose to store these values directly in `filelist.json`, for example:
 
-```
+```json
 {
   "type": "File",
   "path": "C:\\data\\myvideo.mp4",
@@ -162,24 +162,24 @@ Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA= (96b)
 
 The new file entry is then stored in filelist, which then looks like:
 
-```
+```json
 [
   {
-	"type": "Folder",
-	"path": "C:\\data\\"
+  "type": "Folder",
+  "path": "C:\\data\\"
   },
   {
-	"type": "File",
-	"path": "C:\\data\\mydoc.txt",
-	"size": 4096,
-	"hash": "qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4="
+  "type": "File",
+  "path": "C:\\data\\mydoc.txt",
+  "size": 4096,
+  "hash": "qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4="
   },
   {
-	"type": "File",
-	"path": "C:\\data\\myvideo.mp4",
-	"size": 215040,
-	"hash": "4sGwVN/QuWHD+yVI10qgYa4e2F5M4zXLKBQaf1rtTCs=",
-	"blocklists": [ "Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=" ]
+  "type": "File",
+  "path": "C:\\data\\myvideo.mp4",
+  "size": 215040,
+  "hash": "4sGwVN/QuWHD+yVI10qgYa4e2F5M4zXLKBQaf1rtTCs=",
+  "blocklists": [ "Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=" ]
   }  
 ]
 ```
@@ -208,34 +208,34 @@ We chose to omit this part based on a number of observations:
 
 This means that an additional entry for `C:\data\extra\olddoc.tx` will occur in `filelist.json`:
 
-```
+```json
 [
   {
-	"type": "Folder",
-	"path": "C:\\data\\"
+  "type": "Folder",
+  "path": "C:\\data\\"
   },
   {
-	"type": "File",
-	"path": "C:\\data\\mydoc.txt",
-	"size": 4096,
-	"hash": "qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4="
+  "type": "File",
+  "path": "C:\\data\\mydoc.txt",
+  "size": 4096,
+  "hash": "qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4="
   },
   {
-	"type": "File",
-	"path": "C:\\data\\myvideo.mp4",
-	"size": 215040,
-	"hash": "4sGwVN/QuWHD+yVI10qgYa4e2F5M4zXLKBQaf1rtTCs=",
-	"blocklists": [ "Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=" ]
+  "type": "File",
+  "path": "C:\\data\\myvideo.mp4",
+  "size": 215040,
+  "hash": "4sGwVN/QuWHD+yVI10qgYa4e2F5M4zXLKBQaf1rtTCs=",
+  "blocklists": [ "Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=" ]
   },
   {
-	"type": "Folder",
-	"path": "C:\\data\\extra"
+  "type": "Folder",
+  "path": "C:\\data\\extra"
   },
   {
-	"type": "File",
-	"path": "C:\\data\\extra\\olddoc.txt",
-	"size": 2048,
-	"hash": "R/XSNsb4ln/SkeJwFDd4Fv4OnW2QNIxMR4HItgg9qCE="
+  "type": "File",
+  "path": "C:\\data\\extra\\olddoc.txt",
+  "size": 2048,
+  "hash": "R/XSNsb4ln/SkeJwFDd4Fv4OnW2QNIxMR4HItgg9qCE="
   }
 ]
 ```
@@ -247,41 +247,41 @@ This approach is also known as [deduplication](https://en.wikipedia.org/wiki/Dat
 
 The final contents of `filelist.json` is then:
 
-```
+```json
 [
   {
-	"type": "Folder",
-	"path": "C:\\data\\"
+  "type": "Folder",
+  "path": "C:\\data\\"
   },
   {
-	"type": "File",
-	"path": "C:\\data\\mydoc.txt",
-	"size": 4096,
-	"hash": "qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4="
+  "type": "File",
+  "path": "C:\\data\\mydoc.txt",
+  "size": 4096,
+  "hash": "qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4="
   },
   {
-	"type": "File",
-	"path": "C:\\data\\myvideo.mp4",
-	"size": 215040,
-	"hash": "4sGwVN/QuWHD+yVI10qgYa4e2F5M4zXLKBQaf1rtTCs=",
-	"blocklists": [ "Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=" ]
+  "type": "File",
+  "path": "C:\\data\\myvideo.mp4",
+  "size": 215040,
+  "hash": "4sGwVN/QuWHD+yVI10qgYa4e2F5M4zXLKBQaf1rtTCs=",
+  "blocklists": [ "Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=" ]
   },
   {
-	"type": "Folder",
-	"path": "C:\\data\\extra"
+  "type": "Folder",
+  "path": "C:\\data\\extra"
   },
   {
-	"type": "File",
-	"path": "C:\\data\\extra\\olddoc.txt",
-	"size": 2048,
-	"hash": "R/XSNsb4ln/SkeJwFDd4Fv4OnW2QNIxMR4HItgg9qCE="
+  "type": "File",
+  "path": "C:\\data\\extra\\olddoc.txt",
+  "size": 2048,
+  "hash": "R/XSNsb4ln/SkeJwFDd4Fv4OnW2QNIxMR4HItgg9qCE="
   },
   {
-	"type": "File",
-	"path": "C:\\data\\extra\\samevideo.mp4",
-	"size": 215040,
-	"hash": "4sGwVN/QuWHD+yVI10qgYa4e2F5M4zXLKBQaf1rtTCs=",
-	"blocklists": [ "Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=" ]
+  "type": "File",
+  "path": "C:\\data\\extra\\samevideo.mp4",
+  "size": 215040,
+  "hash": "4sGwVN/QuWHD+yVI10qgYa4e2F5M4zXLKBQaf1rtTCs=",
+  "blocklists": [ "Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=" ]
   },
 ]
 ```
