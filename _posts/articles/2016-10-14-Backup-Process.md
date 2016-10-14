@@ -59,10 +59,10 @@ You can see an overview of the process here:
 
 <div class="lightgallery">
   <a href="../../images/article/duplicati-processing-a-block.png" data-sub-html="Overview of the backup process">
-      <img src="../../images/news/duplicati-processing-a-block.png" alt="Overview of the backup process" />
+      <img src="../../images/article/duplicati-processing-a-block.png" alt="Overview of the backup process" />
   </a>
   <a href="../../images/article/duplicati-processing-files-and-folders.png" data-sub-html="Overview of the backup process">
-      <img src="../../images/news/duplicati-processing-files-and-folders.png" alt="Overview of the backup process" />
+      <img src="../../images/article/duplicati-processing-files-and-folders.png" alt="Overview of the backup process" />
   </a>
 </div>
 
