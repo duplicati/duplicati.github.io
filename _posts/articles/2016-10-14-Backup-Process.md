@@ -38,6 +38,7 @@ C:\data
 Duplicati will always traverse the filesystem in "filesystem order", meaning whichever order the operating system returns the files and folders from a listing. This is usually the fastest way, as it relates to how the files a physically stored on the disk.
 
 As Duplicati only works with absolute paths, it will see the following list:
+
 ```
 C:\data\
 C:\data\mydoc.txt
@@ -90,11 +91,13 @@ It then computes the SHA-256 value for the entire file and encodes it as Base64,
 Note that no additional data is added to the hash. This is not required as the hash values are not visible after the zip volumes are encrypted, thus giving no hints for an attacker as to what the backup contains.
 
 The data from the file (the 4kb) are then added to the `dblock` file mentioned above, using the string as the the filename. This means that the `dblock` zip file contents are now:
+
 ```
 qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4= (4kb)
 ```
 
 The file is then added to `filelist.json`, which now looks like this:
+
 ```
 [
   {
@@ -115,6 +118,7 @@ The file is then added to `filelist.json`, which now looks like this:
 For the entry `C:\data\myvideo.mp4`, the same approach is used as described for `C:\data\mydoc.txt`, but the file is larger than the "block size" (100kb). This simply means that Duplicati computes 3 SHA-256 block hashes, where the first two are 100kb each, and the last is the remaining 10kb.
 
 Each of these data blocks, or partial file contents, are added to the `dblock` file, which now contains:
+
 ```
 qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4= (4kb)
 0td8NEaS7SMrQc5Gs0Sdxjb/1MXEEuwkyxRpguDiWsY= (100kb)
@@ -125,6 +129,7 @@ uS/2KMSmm2IWlZ77JiHH1p/yp7Cvhr8CKmRHJNMRqwA= (10kb)
 Additionally, a file hash is computed, but unlike a small file, the file hash is now different: `4sGwVN/QuWHD+yVI10qgYa4e2F5M4zXLKBQaf1rtTCs=`.
 
 We could choose to store these values directly in `filelist.json`, for example:
+
 ```
 {
   "type": "File",
@@ -146,6 +151,7 @@ Instead, Duplicati adds an "indirection block", meaning that it creates a new bl
 For `C:\data\myvideo.mp4` it generated three blocks, so the new block with the three blockhashes takes up only 96 bytes. This new block is treated no differently than other blocks, and a SHA-256 hash is computed, giving the base64 encoded "blockhash" value: `Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=`.
 
 This new block is then added to the dblock file, which now contains:
+
 ```
 qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4= (4kb)
 0td8NEaS7SMrQc5Gs0Sdxjb/1MXEEuwkyxRpguDiWsY= (100kb)
@@ -155,6 +161,7 @@ Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA= (96b)
 ``` 
 
 The new file entry is then stored in filelist, which then looks like:
+
 ```
 [
   {
@@ -200,6 +207,7 @@ We chose to omit this part based on a number of observations:
 
 
 This means that an additional entry for `C:\data\extra\olddoc.tx` will occur in `filelist.json`:
+
 ```
 [
   {
@@ -238,6 +246,7 @@ Finally, the file `C:\data\extra\samevideo.mp4` is processed. Duplicati will tre
 This approach is also known as [deduplication](https://en.wikipedia.org/wiki/Data_deduplication) ensuring that each "chunck" of data is stored just only once. With this approach, duplicate files are detected regardless of their names or locations. For systems like databases this works well, in that they usually append or replace parts of their storage file, which can then be isolated into changed 100kb blocks.
 
 The final contents of `filelist.json` is then:
+
 ```
 [
   {
@@ -278,6 +287,7 @@ The final contents of `filelist.json` is then:
 ```
 
 And the final contents of the `dblock` file is then:
+
 ```
 qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4= (4kb)
 0td8NEaS7SMrQc5Gs0Sdxjb/1MXEEuwkyxRpguDiWsY= (100kb)
