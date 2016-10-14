@@ -294,5 +294,6 @@ Many details were omitted from the above example run, some of those details can 
   - When a `dblock` size is too big, a new one is created
   - Zip archives contains a `manifest` file that describes the setup
   - A local database is used to keep track of hashes and files
+  - A `dindex` file is created to keep track of which `dblock` files have each hash
 
-Some more details can be found in the whitepaper [A block-based storage model for remote online backups in a trust-no-one environment)](/assets/Block-basedstorageformat.pdf).
+Some more details can be found in the whitepaper [A block-based storage model for remote online backups in a trust-no-one environment)](/assets/Block-basedstorageformat.pdf). Even more details in the [Duplicati source code](https://github.com/duplicati/duplicati).
