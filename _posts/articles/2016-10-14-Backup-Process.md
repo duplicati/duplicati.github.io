@@ -5,7 +5,7 @@ categories: articles
 modified: 2016-10-14T09:00:00
 tags: [overview]
 comments: true
-excerpt: Understand how a backup is created by Duplicati
+excerpt: Understand the technical basics how Duplicati creates and stores backups
 
 ---
 
@@ -13,14 +13,12 @@ excerpt: Understand how a backup is created by Duplicati
 
 ## Introduction
 
-Duplicati is an open source backup application, that has no serverside components. This design has the benefit of being able to support backups to a wide variety of cloud-based storage providers. But it also means that it cannot simply store your files, as the server may have a different file system, or work slowly with many small files.
-
-In this article we walk through the process of backing up a few files to a remote storage, to illustrate how it works.
+Duplicati is an open source backup application, that has no server-side components and thus it can support a wide variety of cloud-based storage providers. This also means, Duplicati has to handle large latencies, disconnects and it can only add and delete files but not modify existing files. Duplicati copes with it by using a storage format that merges small files and splits large files and that supports features like encryption, compression and de-duplication, versioning and incremental backups. In this article we walk through the process of backing up a few files to a remote storage, to illustrate how it basically works.
 
 
 ## The source data
 
-For this article, we will assume you want to make a backup of a small folder on a Windows machine, the contents of that folder is:
+For this article, we will assume you want to make a backup of a small folder on a Windows machine, the content of that folder is:
 
 ```
 C:\data
@@ -34,7 +32,7 @@ C:\data
 
 ## The backup process
 
-Duplicati will always traverse the filesystem in "filesystem order", meaning whichever order the operating system returns the files and folders from a listing. This is usually the fastest way, as it relates to how the files a physically stored on the disk.
+Duplicati will always traverse the filesystem in "filesystem order", meaning whichever order the operating system returns the files and folders from a listing. This is usually the fastest way, as it relates to how the files are physically stored on the disk.
 
 As Duplicati only works with absolute paths, it will see the following list:
 
@@ -53,7 +51,7 @@ To store the information about what is in the backup, Duplicati relies on standa
 
 To store the file list, Duplicati creates a file named `duplicati-20161014090000.dlist.zip` locally, where the numbers represent the current date and time in the [UTC timezone](https://en.wikipedia.org/wiki/Coordinated_Universal_Time). Inside this zip archive is a single JSON file named `filelist.json`, which starts out by being an empty list, which is expressed in JSON as `[]`.
 
-To store the data from files, Duplicati creates a file named `duplicati-7af781d3401eb90cd371.dblock.zip`, where the letters and numbers are chosen at random and has no relation to the data nor the current time. Initally this zip file is empty.
+To store the data from files, Duplicati creates a file named `duplicati-7af781d3401eb90cd371.dblock.zip`, where the letters and numbers are chosen at random and have no relation to the data nor the current time. Initally this zip file is empty.
 
 You can see an overview of the process here:
 
@@ -89,7 +87,7 @@ It then computes the SHA-256 value for the entire file and encodes it as Base64,
 
 Note that no additional data is added to the hash. This is not required as the hash values are not visible after the zip volumes are encrypted, thus giving no hints for an attacker as to what the backup contains.
 
-The data from the file (the 4kb) are then added to the `dblock` file mentioned above, using the string as the the filename. This means that the `dblock` zip file contents are now:
+The data from the file (the 4kb) are then added to the `dblock` file mentioned above, using the string as the filename. This means that the `dblock` zip file contents are now:
 
 ```
 qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4= (4kb)
