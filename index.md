@@ -11,7 +11,7 @@ image:
   <div class="twotile">
     <p class="post-icon"><img src="images/home/backends-ico.png" /></p>
     <h2 class="post-title">Many Backends</h2>
-    <p class="post-excerpt">Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive &quot; S3, Google Drive, box.com, Mega, hubiC and many others.</p>
+    <p class="post-excerpt">Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive &amp; S3, Google Drive, box.com, Mega, hubiC and many others.</p>
   </div>
 
   <div class="twotile">
