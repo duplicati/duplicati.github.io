@@ -2,6 +2,39 @@
    Page layout
    ========================================================================== */
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+div#js-body {
+  position: relative; /* needed for footer positioning*/
+  height: auto !important; /* real browsers */
+  min-height: 100%; /* real browsers */
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+div#page-wrapper {
+	/* 
+		bottom padding for footer 
+		needs to be adjusted if more items are added
+	*/
+	@include media(35em) {
+		padding-bottom: 8.5em;
+	}
+	@include media(42.5em) {
+		padding-bottom: 5em;
+	}
+	padding-bottom: 10em;
+}
+
 /*
    Masthead
    ========================================================================== */

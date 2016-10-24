@@ -41,25 +41,26 @@
 
   </head>
 
-  <body id="js-body">
-    {% include browser-upgrade.html %}
-    {% include header.html %}
-    {% include navigation-sliding.html %}
-    
-    {% if page.image.parallax %}
-    <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.parallax }})">
-      <div class="wrap page-lead-content">
-        <h1>Duplicati 2.0</h1>
-        <h2>Store securely encrypted backups on cloud storage services!
-      </div><!-- /.page-lead-content -->
-    </div><!-- /.page-lead -->
-    {% endif %}
+  <body >
+    <div id="js-body"> 
+        {% include browser-upgrade.html %}
+        {% include header.html %}
+        {% include navigation-sliding.html %}
+        
+        {% if page.image.parallax %}
+        <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.parallax }})">
+          <div class="wrap page-lead-content">
+            <h1>Duplicati 2.0</h1>
+            <h2>Store securely encrypted backups on cloud storage services!
+          </div><!-- /.page-lead-content -->
+        </div><!-- /.page-lead -->
+        {% endif %}
 
-    <div id="page-wrapper">
-      {{ content }}
+        <div id="page-wrapper">
+          {{ content }}
+        </div>
+        {% include footer.html %}
     </div>
-    {% include footer.html %}
-
   </body>
 
 </html>
