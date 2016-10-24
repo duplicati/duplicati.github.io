@@ -52,7 +52,7 @@ image:
 $(document).ready(function(){
  var os = [ $.client.os.toLowerCase() ];
 
- if (os[0] = 'linux')
+ if (os[0] == 'linux')
     os = [ 'linux-rpm', 'linux-deb'];
 
   for(var ix in os) {
