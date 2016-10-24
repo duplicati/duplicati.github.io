@@ -152,8 +152,13 @@ div#page-wrapper {
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $light-text-color;
 		}
+
+		a.current {
+			color: $primary-color;
+		}
 	}
 }
+
 
 /* Bottom menu navigation */
 
