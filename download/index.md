@@ -18,10 +18,10 @@ image:
     </div>
 
     <div id="other-os">
-        <div id="other-os-label">other versions and operating systems:</div>
+        <div id="other-os-label" style="display: none;">other versions and operating systems:</div>
         <div id="os-windows" class="link"><a id="link-msi64" class="btn" href="https://github.com/duplicati/duplicati/releases"><img src="../images/download/windows.png" />Windows <div class="version-number"></div></a></div>
-        <div id="os-linux" class="link"><a id="link-deb" class="btn" href="https://github.com/duplicati/duplicati/releases"><img src="../images/download/debian.png" />Debian <img src="../images/download/ubuntu.png" />Ubuntu <div class="version-number"></div></a></div>
-        <div id="os-linux" class="link"><a id="link-rpm" class="btn" href="https://github.com/duplicati/duplicati/releases"><img src="../images/download/fedora.png" />Fedora <img src="../images/download/redhat.png" />RedHat <div class="version-number"></div></a></div>
+        <div id="os-linux-deb" class="link"><a id="link-deb" class="btn" href="https://github.com/duplicati/duplicati/releases"><img src="../images/download/debian.png" />Debian <img src="../images/download/ubuntu.png" />Ubuntu <div class="version-number"></div></a></div>
+        <div id="os-linux-rpm" class="link"><a id="link-rpm" class="btn" href="https://github.com/duplicati/duplicati/releases"><img src="../images/download/fedora.png" />Fedora <img src="../images/download/redhat.png" />RedHat <div class="version-number"></div></a></div>
         <div id="os-mac" class="link"><a id="link-dmg" class="btn" href="https://github.com/duplicati/duplicati/releases"><img src="../images/download/mac.png" />macOS / OSX <div class="version-number"></div></a></div>
     </div>
 
@@ -50,14 +50,21 @@ image:
 
 <script type="text/javascript">
 $(document).ready(function(){
- $("#os-" + $.client.os.toLowerCase()).addClass('current');
- $('#downloadlinks').addClass('has-current');
+ var os = [ $.client.os.toLowerCase() ];
 
- var curel = $("#os-" + $.client.os.toLowerCase());
- if (curel.length > 0)
- {
-    $('#current-os').prepend(curel);
-    $('#other-os-label').show();
+ if (os[0] = 'linux')
+    os = [ 'linux-rpm', 'linux-deb'];
+
+  for(var ix in os) {
+     $("#os-" + os[ix]).addClass('current');
+     $('#downloadlinks').addClass('has-current');
+
+     var curel = $("#os-" + os[ix]);
+     if (curel.length > 0)
+     {
+        $('#current-os').prepend(curel);
+        $('#other-os-label').show();
+     }
  }
 
  $('.version-number').html(duplicati_installers.version.trim());
