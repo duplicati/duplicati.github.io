@@ -18,6 +18,13 @@
 		@include outer-container;
 	}
 }
+
+.site-logo {
+	width: .6 * $masthead-height;
+	height: .6 * $masthead-height;
+	margin-right: .25 * $masthead-height;
+}
+
 .site-title {
 	@include row;
 	@include media($large) {
