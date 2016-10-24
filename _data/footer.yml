@@ -30,5 +30,6 @@
     
   - title: Donate via Bitcoin
     image: images/bitcoin.png
+    id: bitcoin-qr-trigger
     url: bitcoin:1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN 
 

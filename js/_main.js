@@ -8,6 +8,16 @@ $(document).ready(function(){
     // $('#masthead, #page-wrapper').toggleClass('slide');
     e.preventDefault();
   });
+
+  // Bitcoin QR support
+  $('#bitcoin-qr-trigger,#bitcoin-qr-popup').on('click touchstart', function(e){
+    $('#bitcoin-qr-popup').toggleClass('is-visible');
+    e.preventDefault();
+  }); 
+
+  $('#bitcoin-qr-target').on('click touchstart', function(e){
+    $('#bitcoin-qr-popup').toggleClass('is-visible');
+  }); 
 });
 
 // FitVids

@@ -405,3 +405,33 @@ div#page-wrapper {
 		}
 	}
 }
+
+.center-qr-on-screen {
+	position: absolute;
+	left:50%;
+	margin-left:-100px;
+	top:50%;
+	margin-top:-125px;
+	width: 200px;
+	height: 250px;
+	overflow-wrap: break-word;
+    text-align: center;	
+    a {     
+    	color: white;
+    	z-index: -10;
+	}
+}
+
+.dark-shaded-blocker {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	display: block;
+
+	background-color: $black;
+	opacity: .6;
+	width: 100%;
+	height: 100%;
+}
