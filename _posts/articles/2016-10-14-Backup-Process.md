@@ -82,7 +82,7 @@ In the actual implementaion, it also stores metadata, such as permissions, modif
 
 ### Processing a small file
 
-The next entry is `C:\data\mydoc.txt`, which is a file and thus has actual contents. Duplicati will read the file, a "block" at a time, which is 100kb. As the file is only 4kb, it all "fits" inside a single block. Once the block is read, Duplicati computes a [SHA-256 has value](https://en.wikipedia.org/wiki/SHA-2) and encodes it as with [Base64 encoding](https://en.wikipedia.org/wiki/Base64) to get a string like `qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4=`.
+The next entry is `C:\data\mydoc.txt`, which is a file and thus has actual contents. Duplicati will read the file, a "block" at a time, which is 100kb. As the file is only 4kb, it all "fits" inside a single block. Once the block is read, Duplicati computes a [SHA-256 hash value](https://en.wikipedia.org/wiki/SHA-2) and encodes it as with [Base64 encoding](https://en.wikipedia.org/wiki/Base64) to get a string like `qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4=`.
 It then computes the SHA-256 value for the entire file and encodes it as Base64, but as the block and the file have the exact same contents (i.e. the whole file fits in a block), the value is the same: `qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4=`.
 
 Note that no additional data is added to the hash. This is not required as the hash values are not visible after the zip volumes are encrypted, thus giving no hints for an attacker as to what the backup contains.
