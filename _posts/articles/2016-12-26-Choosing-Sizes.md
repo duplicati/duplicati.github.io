@@ -5,7 +5,7 @@ categories: articles
 modified: 2016-12-26T19:00:00
 tags: [overview]
 comments: true
-excerpt: This article describes the tradeoffs between involved in picking the sizes of blocks and volumes in Duplicati.
+excerpt: This article describes the tradeoffs involved in picking the sizes of blocks and volumes in Duplicati.
 
 ---
 
