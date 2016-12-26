@@ -5,7 +5,7 @@ categories: articles
 modified: 2016-10-14T09:00:00
 tags: [overview]
 comments: true
-excerpt: In this article we walk through the process of backing up a few files to a remote storage, to illustrate how it basically works.
+excerpt: In this article we walk through the process of backing up a few files to a remote storage, to illustrate how it works.
 
 ---
 
