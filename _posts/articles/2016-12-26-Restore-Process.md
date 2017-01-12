@@ -81,7 +81,7 @@ From this we can see that there are 4 files we need to restore. We can also see 
 
 ## Expanding blocklists
 
-As explained in the [How the Backup Process Works](2016-10-14-Backup-Process) document, the blocklists are data blocks that contain additional hashes needed to restore the files. Thus we start by "expanding" the blocklists into a list of hashes that we need.
+As explained in the [How the Backup Process Works](../Backup-Process) document, the blocklists are data blocks that contain additional hashes needed to restore the files. Thus we start by "expanding" the blocklists into a list of hashes that we need.
 
 As the two files share the blocklist has `Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=`, we only need to get this block to complete the expansion phase.
 
