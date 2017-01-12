@@ -87,7 +87,7 @@ As the two files share the blocklist has `Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaU
 
 Unfortunately, there is no correlation between the names of the `dblock` files and the data they contain, so we need to download all of them, until we find the data we need. Since this is slow in a real-world scenario, Duplicati replicates this information in the `dindex` files, which are much smaller than the `dblock` files.
 
-Assuming we have the same `dblock` file as mentioned in the backup document, we get a zip file with these files:
+Assuming we have the same `dblock` file as mentioned in the [backup document]((../Backup-Process)), we get a zip file with these files:
 
 ```
 qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4= (4kb)
