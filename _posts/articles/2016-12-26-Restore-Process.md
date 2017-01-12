@@ -98,9 +98,9 @@ Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA= (96b)
 R/XSNsb4ln/SkeJwFDd4Fv4OnW2QNIxMR4HItgg9qCE= (2kb)
 ```
 
-Here we see that the file `Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=` is 96 bytes, and we know that a sha256 is 32 bytes. We can then compute that this chunk of data expands to `96/32 = 3` hashes. We could also compute this size, by looking at the size of the file, and then find out how 100kb blocks it spans.
+Here we see that the file `Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaUT0uPA=` is 96 bytes, and we know that a sha256 is 32 bytes. We can then compute that this chunk of data expands to `96/32 = 3` hashes. We could also compute this size, by looking at the size of the file, and then find out how many 100kb blocks it spans.
 
-For efficiency, the hashes are stored in binary format, but here we can represent them as base64 encoded strings:
+For efficiency, the hashes are stored in raw binary format, but here we can represent them as base64 encoded strings:
 
 ```
 0td8NEaS7SMrQc5Gs0Sdxjb/1MXEEuwkyxRpguDiWsY=
