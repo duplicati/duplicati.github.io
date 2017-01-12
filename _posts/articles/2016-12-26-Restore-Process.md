@@ -13,13 +13,14 @@ excerpt: In this article we walk through the process of restoring file to illust
 
 ## Duplicati Restore Process
 
-If you have read the [How the backup process works](2016-10-14-Backup-Process) document, you might be wondering how the restore process uses the stored data to restore your files. This document explains this process, using the `Duplicati.CommandLine.RecoveryTool.exe` process as the starting point, so we can skip the complications added by the local database. Unless you are curious about the inner workings of Duplicati, you do not need to read this document, you can simply use the normal restore process, or the recovery tool.
+If you have read the [How the backup process works](../Backup-Process) document, you might be wondering how the restore process uses the stored data to restore your files. This document explains this process, using the `Duplicati.CommandLine.RecoveryTool.exe` process as the starting point, so we can skip the complications added by the local database. Unless you are curious about the inner workings of Duplicati, you do not need to read this document, you can simply use the normal restore process, or the recovery tool.
 
 ## The example files
 
 For this document we continue with the example from the backup document, and walk through the restore process.
 
 From the initial backup, we saw that the directory structure that was backed up looks like this:
+
 ```
 C:\data
 |----> mydoc.txt, 4kb
@@ -36,6 +37,7 @@ To simplify matters, we will not use a local database, and we only look at file 
 To start with, we need to pick the `dlist`file that contains the version of the files that we want. In a real-world example, you can observe the names of the `dlist` files, which have a timestamp embedded in them. The timestamps are stored in [UTC](https://en.m.wikipedia.org/wiki/Coordinated_Universal_Time), so you may need to adjust to your local timezone.
 
 For this example we only have a single `dlist`file, so we pick that one, download it and see the contents:
+
 ```json
 [
   {
@@ -86,6 +88,7 @@ As the two files share the blocklist has `Uo1f4rVjNRX10HkxQxXauCrRv0wJOvStqt9gaU
 Unfortunately, there is no correlation between the names of the `dblock` files and the data they contain, so we need to download all of them, until we find the data we need. Since this is slow in a real-world scenario, Duplicati replicates this information in the `dindex` files, which are much smaller than the `dblock` files.
 
 Assuming we have the same `dblock` file as mentioned in the backup document, we get a zip file with these files:
+
 ```
 qaFXpxVTuYCuibb9P41VSeVn4pIaK8o3jUpJKqI4VF4= (4kb)
 0td8NEaS7SMrQc5Gs0Sdxjb/1MXEEuwkyxRpguDiWsY= (100kb)
