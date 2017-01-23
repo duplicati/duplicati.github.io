@@ -1,5 +1,5 @@
 ---
-title: "Windows Driver Letters"
+title: "Windows Drive Letters"
 layout: article
 categories: articles
 modified: 2016-12-26T20:00:00
@@ -11,7 +11,7 @@ excerpt: This article describes how to configure a backup to a removable media, 
 
 {% include toc.html %}
 
-The Windows Driver Letter Problem
+The Windows Drive Letter Problem
 ==========================
 
 If you are a Windows user, you may have noticed that the drive letter Windows assigns can change from time to time. This happens because Windows picks the next available letter and assigns it to the drive.
