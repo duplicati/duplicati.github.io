@@ -44,7 +44,7 @@ With larger chunk sizes, it is also less likely that deduplication will detect a
 If there is sufficient bandwidth to the remote destination, choosing a larger chunk size is usually beneficial. The lower limit is 10kb, and there is no upper limit, but choosing values larger than 1mb should only be done after evaluating the above impacts.
 
 
-### Remote Volume Size
+## Remote Volume Size
 
 Rather than storing the chunks individually, Duplicati groups data in volumes, which reduces the number of the remote files, and calls to the remote server. The volumes are then compressed, which saves storage space and bandwidth. Encryption is applied to the volumes, which reduces the possibility of someone deducing properties about the contents inside the volume.
 
