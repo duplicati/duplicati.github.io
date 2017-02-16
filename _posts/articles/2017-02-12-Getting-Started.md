@@ -13,7 +13,7 @@ excerpt: In this article we show the basic screens and steps required to set up 
 
 ## Introduction
 
-Duplicati is an open source backup application, which runs on your local machine, and encrypts data prior top uploading it. The user interface is web-based and allows you to control all the options offered by Duplicati, from a simple and intuitive interface. 
+Duplicati is an open source backup application, which runs on your local machine, and encrypts data prior to uploading it. The user interface is web-based and allows you to control all the options offered by Duplicati, from a simple and intuitive interface. 
 
 This guide assumes you have already installed Duplicati, and are about to set up your very first backup.
 
