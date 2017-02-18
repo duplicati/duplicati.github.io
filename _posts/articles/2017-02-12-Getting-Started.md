@@ -19,7 +19,7 @@ This guide assumes you have already installed Duplicati, and are about to set up
 
 ## 1. The home screen
 
-On the home screen, click the &quot;Add backup&quot; menu to get started.
+On the home screen, click the &quot;Add backup&quot; then select "Configure a new backup" and click "Next" to start.
 
 <div class="lightgallery">
   <a href="../../images/quick-guide/home-empty.png" data-sub-html="The empty home screen. Click the &quot;Add backup&quot; menu to get started">
@@ -29,7 +29,7 @@ On the home screen, click the &quot;Add backup&quot; menu to get started.
 
 ### Mobile devices and small screens.
 
-If you are using a device with small screen, the menu is located top-right, and needs an extra click to show.
+On devices with small screens, the menu is located top-right, and needs an extra click to show.
 
 <div class="lightgallery">
   <a href="../../images/quick-guide/small-home-no-menu.png" data-sub-html="The empty home screen on a small display. Click the menu icon near the top to see the menu.">
@@ -56,11 +56,11 @@ On the initial page, we choose the default "Configure a new backup" and click th
 
 On the very first page, we need to choose a name for our backup. This can be anything you like, and is only used to find the backup later, in case you want to have many different backups.
 
-The encryption methods are available from the dropdown. Generally, you should encrypt your backups, but it is also possible to choose "No encryption" in case you are storing the files on a trusted location.
+The encryption methods are available from the dropdown with AES-256 pre-selected. Generally, you should encrypt your backups, but it is also possible to choose "No encryption" in case you are storing the files on a trusted location.
 
-Rather than choosing a passphrase, you can click the "Generate" button and have a strong passphrase generated for you. If you generate a passphrase, make sure you write it down and store it in a safe place. If you loose this passphrase, you loose all access to your backup. 
+Rather than choosing a passphrase, you can click the "Generate" button and have a strong passphrase generated for you. If you generate a passphrase, make sure you write it down and store it in a safe place. If you lose this passphrase, you lose all access to your backup. 
 
-There are no options for recovering a lost passphrase.
+Please note: There are no options for recovering a lost passphrase!
 
 Once you have filled in the fields as you like, click the next button, or use the navigation in the top to choose the next step.
 
@@ -112,7 +112,7 @@ As before, you can use the "Next" button or the navigation line at the top to ch
 
 ## 5. Source data
 
-In this step you must choose what files to make a backup off. Most users will only need to locate the desired folder in the tree, and check the desired folders. Subfolders to an included folder can be excluded by clicking the check mark. For advanced users, the three dots will enable a text display where each line is a folder or file to back up.
+In this step you must choose what files to make a backup of. Most users will only need to locate the desired folder in the tree, and check the desired folders. Subfolders to an included folder can be excluded by clicking the check mark. For advanced users, the three dots will enable a text display where each line is a folder or file to back up.
 
 Exclusions based on attributes or file size can be configured under the "Exclude" section.
 
@@ -162,11 +162,13 @@ As before, you can use the "Next" button or the navigation line at the top to ch
 
 The final page lets you control how large files Duplicati will create on the remote storage. Feel free to leave this value to the default, or [read more about choosing file sizes](../Choosing-Sizes).
 
-The other option on this page is about how far back you want to store old backups, sometimes called "retention". Backups older than the specified range will be deleted after a backup has completed. Deleting old backups can free up space on the remote destination.
+The other option on this page is about how far back you want to store old backups, sometimes called "retention". Backups older than the specified range will be deleted after a backup has completed. Deleting old backups can free up space on the remote destination. 
+
+Please note: Duplicati will not free storage space immediately when you change the setting. This is because old backup data might be stored in the same file as current backup data. When the backup runs the next time, Duplicati will check if current backup data can be rearranged so that files can be deleted without uploading too much current data again.  
 
 The "Advanced options" area lets you tinker with all the different special options that Duplicati supports. You should only use these options if you really know what you are doing.
 
-Finally, you can click the "Save" button to store the backup configuration. If you have automatically generated a passphrase, you are now promted to write it down and keep it safe. If you loose the passphrase, you cannot recover the backup, and there is no way to recover your data.
+Finally, you can click the "Save" button to store the backup configuration. If you have automatically generated a passphrase, you are now promted to write it down and keep it safe. If you lose the passphrase, you cannot recover the backup, and there is no way to recover your data.
 
 <div class="lightgallery">
   <a href="../../images/quick-guide/page5.png" data-sub-html="The options page lets you choose the volume size and the retention.">
