@@ -2,7 +2,7 @@
 layout: article
 title: "Getting started guide"
 categories: articles
-modified: 2016-10-14T09:00:00
+modified: 2016-10-18T09:00:00
 tags: [overview]
 comments: true
 excerpt: In this article we show the basic screens and steps required to set up a backup, and explain some of the options.
@@ -19,7 +19,7 @@ This guide assumes you have already installed Duplicati, and are about to set up
 
 ## 1. The home screen
 
-On the home screen, click the &quot;Add backup&quot; then select "Configure a new backup" and click "Next" to start.
+On the home screen, click the &quot;Add backup&quot; to get started.
 
 <div class="lightgallery">
   <a href="../../images/quick-guide/home-empty.png" data-sub-html="The empty home screen. Click the &quot;Add backup&quot; menu to get started">
