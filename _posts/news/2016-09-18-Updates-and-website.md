@@ -28,4 +28,4 @@ A few versions have been rolled with many changes. Here is a short summary of th
 
 ### When will it be released?
 
-We still get asked, when Duplciati 2.0 will be released as stable version. We have a large user base and a bit hesitant to declare Duplicati 2.0 as stable. If you are using the experimental version right now and think, we it deserves to be called "beta" or "stable", please let us know. 
+We still get asked, when Duplciati 2.0 will be released as stable version. We have a large user base and a bit hesitant to declare Duplicati 2.0 as stable. If you are using the experimental version right now and think, it deserves to be called "beta" or "stable", please let us know. 
