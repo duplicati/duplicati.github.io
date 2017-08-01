@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Duplicati 2.0.2.1 is beta"
-categories: articles
+categories: news
 modified: 2017-08-01T22:43:00
 tags: [overview]
 comments: true
