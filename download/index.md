@@ -46,7 +46,7 @@ image:
 
 <script src="{{ site.url }}/js/plugins/jquery.client.js" ></script>
 <!-- <script src="{{ site.url }}/js/download.js" ></script>    -->
-<script src="https://updates.duplicati.com/experimental/latest-installers.js"></script>
+<script src="https://updates.duplicati.com/beta/latest-installers.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function(){
