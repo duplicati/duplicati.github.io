@@ -9,8 +9,6 @@ excerpt: A retrospect of the last 5 years of development and the official announ
 
 ---
 
-{% include toc.html %}
-
 Today we released update 2.0.2.1 as an official beta. We think it is time to look back at the past years to see what we all have achieved.
 
 ## 2012
