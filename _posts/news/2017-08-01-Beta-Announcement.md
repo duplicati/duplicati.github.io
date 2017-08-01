@@ -30,7 +30,7 @@ In 2017 we focused on all kinds of issues that you had with Duplicati 2.0 to mak
 
 In 2017 we also a few users got in touch with us so that we learned how you are using Duplicati. We have many private users but also small companies all around the globe. We even got users in Asia and Africa who were glad to get a free backup solution for their small businesses that cannot afford to pay the prices of commercial backup solutions provided by the Western world.
 
-During the last months we saw more than 20,000 active installations of Duplicati 2.0 which ran more than 1,000,000 backups per month with a total size of about 160 Petabytes. With thos impressive numbers we think it is time to promote Duplicati 2.0 from an experimentalversion to an official beta!
+During the last months we saw more than 20,000 active installations of Duplicati 2.0 which ran more than 1,000,000 backups per month with a total size of about 160 Petabytes. With those impressive numbers we think it is time to promote Duplicati 2.0 from an experimental version to an official beta!
 
 ## Today
 Today, we are proud to announce, that Duplicati 2.0.2.1 is our first, official beta version. The installers provided from our website have been changed so that they subscribe to the beta update channel. We would like to thank all contributors and would like to ask you to keep up the support of this project. Everyone deserves a free backup solution that takes care that private data remains private.
