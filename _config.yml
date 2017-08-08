@@ -5,7 +5,7 @@ description: Free backup software to store backups online with strong encryption
 logo: duplicati-fb-share-v1.png # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en_US
-url:
+url: https://www.duplicati.com
 
 # Jekyll configuration
 
