@@ -10,13 +10,9 @@
     image: images/googleplus.png
     url: https://plus.google.com/105271984558189185842
 
-  - title: Visit us On Google Groups
-    image: images/googlegroups.png
-    url: https://groups.google.com/group/duplicati
-
-  - title: Visit us On Gitter
-    image: images/gitter.png
-    url: https://gitter.im/duplicati/Lobby
+  - title: Visit our Forum
+    image: images/duplicati.png
+    url: https://forum.duplicati.com
 
   - title: Visit us On GitHub
     image: images/github.png
