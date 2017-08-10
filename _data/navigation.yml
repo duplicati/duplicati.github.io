@@ -5,22 +5,22 @@
   excerpt:
   image:
 
-- title: News
-  url: /news
-  excerpt: 
-  image:
-  
 - title: Screenshots
   url: /screenshots
   excerpt:
   image: 
+
+- title: News
+  url: /news
+  excerpt: 
+  image:  
 
 - title: Articles
   url: /articles
   excerpt:
   image:    
 
-- title: Get in touch
-  url: /getintouch
+- title: Support
+  url: https://forum.duplicati.com
   excerpt:
   image:
