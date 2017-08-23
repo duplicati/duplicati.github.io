@@ -193,4 +193,4 @@ Now that the backup is configured, you can let it be, and it will run at the sch
 
 ## Questions
 
-If you have questions, try asking on our [live Gitter channel](https://gitter.im/duplicati/Lobby), or one of our other [contact options](../../getintouch).
+If you have questions, try asking on our [forum](https://forum.duplicati.com), or one of our other [contact options](../../getintouch).
