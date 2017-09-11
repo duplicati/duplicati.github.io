@@ -251,7 +251,7 @@ R/XSNsb4ln/SkeJwFDd4Fv4OnW2QNIxMR4HItgg9qCE= (2kb)
 
 Finally, the file `C:\data\extra\samevideo.mp4` is processed. Duplicati will treat each block individually, but figure out that it has already made a backup of this block and not emit it to the `dblock` file. After all 3 blocks are computed, it will then create a new block to store these 3 hashes, but also finds that such a block is already stored as well.
 
-This approach is also known as [deduplication](https://en.wikipedia.org/wiki/Data_deduplication) ensuring that each "chunck" of data is stored just only once. With this approach, duplicate files are detected regardless of their names or locations. For systems like databases this works well, in that they usually append or replace parts of their storage file, which can then be isolated into changed 100kb blocks.
+This approach is also known as [deduplication](https://en.wikipedia.org/wiki/Data_deduplication) ensuring that each "chunk" of data is stored just only once. With this approach, duplicate files are detected regardless of their names or locations. For systems like databases this works well, in that they usually append or replace parts of their storage file, which can then be isolated into changed 100kb blocks.
 
 The final contents of `filelist.json` is then:
 
