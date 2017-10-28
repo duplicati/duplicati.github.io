@@ -27,7 +27,7 @@
   - title: Donate Bitcoins
     image: images/bitcoin.png
     id: bitcoin-qr-trigger
-    url: bitcoin:1LSRaoUMHe6W7SZaPwdW5KffRKmyqGrDWN 
+    url: bitcoin:1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir
 
   - title: Donate Siacoins
     image: images/siacoin.png
