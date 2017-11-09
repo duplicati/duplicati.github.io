@@ -37,7 +37,7 @@ Duplicati analyzes the content of files and stores data blocks. Due to that, Dup
 
 
 ## Technology: Fail-Safe Design
-Duplicati is designed to handle various kinds of issues: Network hick-ups, interrupted backups, unavailable or corrupt storage systems. Even if a backup run was interrupted, it can be continued at a later time. Duplicati will then backup everything that was missed in the last backup. And even if remote files get corrupted, Duplicati can try to repair them if local data is still present or restore as much as possible.
+Duplicati is designed to handle various kinds of issues: Network hiccups, interrupted backups, unavailable or corrupt storage systems. Even if a backup run was interrupted, it can be continued at a later time. Duplicati will then backup everything that was missed in the last backup. And even if remote files get corrupted, Duplicati can try to repair them if local data is still present or restore as much as possible.
 
 
 ## Interface: Web Interface
