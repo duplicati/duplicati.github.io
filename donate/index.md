@@ -44,19 +44,19 @@ We arbitrarily decided to accept the following crypto currencies. If you want to
 ![Sia QR code cd1811d152f8ff8fdbcc7a55ed059f22b9d944cf1208a6258180ca3e78789ac0d98e463a9a92]({{ site.url }}/images/bitcoin-cash-qr.png "cd1811d152f8ff8fdbcc7a55ed059f22b9d944cf1208a6258180ca3e78789ac0d98e463a9a92")
 
 #### ![Storj]({{ site.url }}/images/storj.png "Storj") Storj: 0x549d724ba23f9bfc51ca953268da278cf1584428
-![Storj QR code 0x549d724ba23f9bfc51ca953268da278cf1584428]({{ site.url }})/image/storj-qr.png "0x549d724ba23f9bfc51ca953268da278cf1584428")
+![Storj QR code 0x549d724ba23f9bfc51ca953268da278cf1584428]({{ site.url }})/images/storj-qr.png "0x549d724ba23f9bfc51ca953268da278cf1584428")
 
 #### ![Litecoin]({{ site.url }}/images/litecoin.png "Litecoin") Litecoin: LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro
-![Litecoin QR code LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro]({{ site.url }})/image/litecoin-qr.png "LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro")
+![Litecoin QR code LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro]({{ site.url }})/images/litecoin-qr.png "LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro")
 
 #### ![Feathercoin]({{ site.url }}/images/feathercoin.png "Feathercoin") Feathercoin: 6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53
-![Feathercoin QR code 6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53]({{ site.url }})/image/feathercoin-qr.png "6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53")
+![Feathercoin QR code 6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53]({{ site.url }})/images/feathercoin-qr.png "6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53")
 
 #### ![Neo]({{ site.url }}/images/neo.png "Neo") Neo: AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi
-![Neo QR code AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi]({{ site.url }})/image/neo-qr.png "AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi")
+![Neo QR code AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi]({{ site.url }})/images/neo-qr.png "AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi")
 
 #### ![Monacoin]({{ site.url }}/images/monacoin.png "Monacoin") Monacoin: MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w
-![Monacoin QR code MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w]({{ site.url }})/image/monacoin-qr.png "MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w")
+![Monacoin QR code MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w]({{ site.url }})/images/monacoin-qr.png "MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w")
 
 
 ### Bounty Source
