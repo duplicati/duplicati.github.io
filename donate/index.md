@@ -16,7 +16,7 @@ All people who contribute to Duplicati are volunteers. We do not get paid, but u
 On this page we have listed a few methods for donating to Duplicati.
 
 ### ![OpenCollective logo]({{ site.url }}/images/opencollective.png "OpenCollective") Donating as a Company
-If you need an invoice, we recommend to donate through [Duplicati OpenCollective](https://opencollective.com/duplicati). OpenCollective is run as a registered company, and *OpenCollective issues invoices for your contributions*. That way your donation can be booked as an expense. 
+If you need a receipt, we recommend you donate through [Duplicati OpenCollective](https://opencollective.com/duplicati). OpenCollective is run as a registered company, and **OpenCollective issues a receipt for your contributions**. That way your donation can be booked as an expense. 
 
 Furthermore, OpenCollective shows how the donated money is spent by the project members. Note that OpenCollective charges a percentage of the donated amount for their handling services.
 
