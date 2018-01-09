@@ -22,10 +22,10 @@ If you need a receipt, we recommend you donate through [Duplicati OpenCollective
 
 Furthermore, OpenCollective shows how the donated money is spent by the project members. Note that OpenCollective charges a percentage of the donated amount for their handling services.
 
-## ![PayPal logo]({{ site.url }}/images/paypal.png "PayPal") Donate through PayPal
+## ![PayPal logo]({{ site.url }}/images/paypal.png "PayPal") Donate with PayPal
 We also accept Donations through the [Duplicati PayPal donation page](https://goo.gl/5TJ4yB). Donations here are less transparent, but with lower fees. The PayPal donations have so far been used for paying various hosting expenses. You cannot get receipts for donations through PayPal, besides the PayPal transaction statement.
 
-## Donate with crypto currencies
+## ![Bitcoin logo]({{ site.url }}/images/bitcoin.png "Donate with crypto") Donate with crypto currencies
 As we are a "cloud first" project we also accept donations in various crypto currencies. Feel free to use the one that you like best. Also, [feel free to ask for your favourite currency to be supported](https://forum.duplicati.com).
 
 Please double check the recipient address, and the token type, before sending any tokens. Crypto currencies are irreversible, so your tokens will be lost if you send it to a wrong address or wrong chain.
@@ -94,6 +94,6 @@ We arbitrarily decided to accept the following crypto currencies, and suggest us
   Monacoin Address: MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w
 </details>
 
-### Bounty Source
+## ![BountySource logo]({{ site.url }}/images/bountysource.png "BountySource") Donate with BountySource
 If you want to back a specific feature, first make sure that it is [registered as an issue on Github](https://github.com/duplicati/duplicati/issues), then pledge money for the issue on [Bounty Source](https://www.bountysource.com/teams/duplicati/issues). 
 The person who submits the code that closes an issue can claim the money. The person claiming the bounty does not have to be a Duplicati team member. Backing an issue directly can give incentive for people to contribute to Duplicati, for the benefit of everyone.
