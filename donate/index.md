@@ -1,9 +1,9 @@
 ---
-layout: archive
+layout: article
 title: "Donations"
 date: 2017-11-22T11:49:00+01:00
 modified:
-excerpt: ""
+excerpt: "This page shows various ways you can donate to Duplicati"
 tags: []
 image:
   feature:
@@ -16,15 +16,15 @@ All people who contribute to Duplicati are volunteers. We do not get paid, but u
 
 On this page we have listed a few methods for donating to Duplicati.
 
-### ![OpenCollective logo]({{ site.url }}/images/opencollective.png "OpenCollective") Donating as a Company
+## ![OpenCollective logo]({{ site.url }}/images/opencollective.png "OpenCollective") Donating as a Company
 If you need a receipt, we recommend you donate through [Duplicati OpenCollective](https://opencollective.com/duplicati). OpenCollective is run as a registered company, and **OpenCollective issues a receipt for your contributions**. That way your donation can be booked as an expense. 
 
 Furthermore, OpenCollective shows how the donated money is spent by the project members. Note that OpenCollective charges a percentage of the donated amount for their handling services.
 
-### ![PayPal logo]({{ site.url }}/images/paypal.png "PayPal") Donate through PayPal
+## ![PayPal logo]({{ site.url }}/images/paypal.png "PayPal") Donate through PayPal
 We also accept Donations through the [Duplicati PayPal donation page](https://goo.gl/5TJ4yB). Donations here are less transparent, but with lower fees. The PayPal donations have so far been used for paying various hosting expenses. You cannot get receipts for donations through PayPal, besides the PayPal transaction statement.
 
-### Donate with crypto currencies
+## Donate with crypto currencies
 As we are a "cloud first" project we also accept donations in various crypto currencies. Feel free to use the one that you like best. Also, [feel free to ask for your favourite currency to be supported](https://forum.duplicati.com).
 
 Please double check the recipient address, and the token type, before sending any tokens. Crypto currencies are irreversible, so your tokens will be lost if you send it to a wrong address or wrong chain.
@@ -32,63 +32,63 @@ Please double check the recipient address, and the token type, before sending an
 We arbitrarily decided to accept the following crypto currencies, and suggest using [Shapeshift.io](https://www.shapeshift.io/) if you want to donate with another currency. By the way, the wallets for BTC, BCH, ETH are held by ourselves. 
 
 <details>
-  <summary>![Bitcoin]({{ site.url }}/images/bitcoin.png "Bitcoin") <b>Donate with Bitcoin</b></summary>
-  ![Bitcoin QR code 1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir]({{ site.url }}/images/bitcoin-qr_new.png "1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir")
+  <summary><img alt="Bitcoin" src="({{ site.url }}/images/bitcoin.png" /> <b>Donate with Bitcoin</b></summary>
+  <img alt="Bitcoin QR code 1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir" src="{{ site.url }}/images/bitcoin-qr_new.png" title="1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir" />
   
   Bitcoin Address: 1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir
 </details>
 
 <details>
-  <summary![Ethereum]({{ site.url }}/images/ethereum.png "Ethereum") <b>Donate with Ethereum</b></summary>
-  ![Ethereum QR code 0xa122e65b01fd18dad0caafc8122e83a3f6cf73a5]({{ site.url }}/images/ethereum-qr.png "0xa122e65b01fd18dad0caafc8122e83a3f6cf73a5")
+  <summary><img alt="Ethereum" src="{{ site.url }}/images/ethereum.png" title="Ethereum" /> <b>Donate with Ethereum</b></summary>
+  <img alt="Ethereum QR code 0xa122e65b01fd18dad0caafc8122e83a3f6cf73a5" src="{{ site.url }}/images/ethereum-qr.png"  title="0xa122e65b01fd18dad0caafc8122e83a3f6cf73a5" />
   
   Ethereum Address: 0xa122e65b01fd18dad0caafc8122e83a3f6cf73a5
 </details>
 
 <details>
-  <summary>#### ![Bitcoin cash]({{ site.url }}/images/bitcoincash.png "Bitcoin cash") <b>Donate with Bitcoin Cash</b></summary>
-  ![Bitcoin cash QR code 165gSZ9UshGyUKPyguWELJ9cbxvmsNzYCw]({{ site.url }}/images/bitcoin-cash-qr.png "165gSZ9UshGyUKPyguWELJ9cbxvmsNzYCw")
+  <summary><img alt="Bitcoin cash" src="{{ site.url }}/images/bitcoincash.png" title="Bitcoin cash" /> <b>Donate with Bitcoin Cash</b></summary>
+  <img alt="Bitcoin cash QR code 165gSZ9UshGyUKPyguWELJ9cbxvmsNzYCw" src="{{ site.url }}/images/bitcoin-cash-qr.png" title="165gSZ9UshGyUKPyguWELJ9cbxvmsNzYCw" />
   
   Bitcoin Cash Address: 165gSZ9UshGyUKPyguWELJ9cbxvmsNzYCw
 </details>
 
 <details>
-  <summary>#### ![Siacoin]({{ site.url }}/images/siacoin.png "Siacoin") <b>Donate with Sia</b></summary>
-  ![Sia QR code cd1811d152f8ff8fdbcc7a55ed059f22b9d944cf1208a6258180ca3e78789ac0d98e463a9a92]({{ site.url }}/images/bitcoin-cash-qr.png "cd1811d152f8ff8fdbcc7a55ed059f22b9d944cf1208a6258180ca3e78789ac0d98e463a9a92")
+  <summary><img alt="Siacoin" src="{{ site.url }}/images/siacoin.png" title="Siacoin" /> <b>Donate with Sia</b></summary>
+  <img alt="Sia QR code cd1811d152f8ff8fdbcc7a55ed059f22b9d944cf1208a6258180ca3e78789ac0d98e463a9a92" src="{{ site.url }}/images/bitcoin-cash-qr.png" title="cd1811d152f8ff8fdbcc7a55ed059f22b9d944cf1208a6258180ca3e78789ac0d98e463a9a92" />
   
   Sia Address: cd1811d152f8ff8fdbcc7a55ed059f22b9d944cf1208a6258180ca3e78789ac0d98e463a9a92
 </details>
 
 <details>
-  <summary>#### ![Storj]({{ site.url }}/images/storj.png "Storj") <b>Donate with Storj</b></summary>
-  ![Storj QR code 0x549d724ba23f9bfc51ca953268da278cf1584428]({{ site.url }}/images/storj-qr.png "0x549d724ba23f9bfc51ca953268da278cf1584428")
+  <summary><img alt="Storj" src="{{ site.url }}/images/storj.png" title="Storj" /> <b>Donate with Storj</b></summary>
+  <img alt="Storj QR code 0x549d724ba23f9bfc51ca953268da278cf1584428" src="{{ site.url }}/images/storj-qr.png" title="0x549d724ba23f9bfc51ca953268da278cf1584428" />
   
   Storj Address: 0x549d724ba23f9bfc51ca953268da278cf1584428
 </details>
 
 <details>
-  <summary>#### ![Litecoin]({{ site.url }}/images/litecoin.png "Litecoin") <b>Donate with Litecoin</b></summary>
-  ![Litecoin QR code LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro]({{ site.url }}/images/litecoin-qr.png "LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro")
+  <summary><img alt="Litecoin" src="{{ site.url }}/images/litecoin.png" title="Litecoin" /> <b>Donate with Litecoin</b></summary>
+  <img alt="Litecoin QR code LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro" src="{{ site.url }}/images/litecoin-qr.png" title="LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro" />
   
   Litecoin Address: LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro
 </details>
 
 <details>
-  <summary>#### ![Feathercoin]({{ site.url }}/images/feathercoin.png "Feathercoin") <b>Donate with Feathercoin</b></summary>
-  ![Feathercoin QR code 6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53]({{ site.url }}/images/feathercoin-qr.png "6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53")
+  <summary><img alt="Feathercoin" src="{{ site.url }}/images/feathercoin.png" title="Feathercoin" /> <b>Donate with Feathercoin</b></summary>
+  <img alt="Feathercoin QR code 6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53" src="{{ site.url }}/images/feathercoin-qr.png" title="6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53" />
   Feathercoin Address: 6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53
 </details>
 
 <details>
-  <summary>#### ![Neo]({{ site.url }}/images/neo.png "Neo") <b>Donate with Neo</b></summary>
-  ![Neo QR code AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi]({{ site.url }}/images/neo-qr.png "AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi")
+  <summary><img alt="Neo" src="{{ site.url }}/images/neo.png" title="Neo" /> <b>Donate with Neo</b></summary>
+  <img alt="Neo QR code AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi" src="{{ site.url }}/images/neo-qr.png" title="AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi" />
   
   Neo Address: AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi
 </details>
 
 <details>
-  <summary>#### ![Monacoin]({{ site.url }}/images/monacoin.png "Monacoin") <b>Donate with Monacoin</b></summary>
-  ![Monacoin QR code MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w]({{ site.url }}/images/monacoin-qr.png "MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w")
+  <summary><img alt="Monacoin" src="{{ site.url }}/images/monacoin.png" title="Monacoin" /> <b>Donate with Monacoin</b></summary>
+  <img alt="Monacoin QR code MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w" src="{{ site.url }}/images/monacoin-qr.png" title="MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w" />
   
   Monacoin Address: MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w
 </details>
