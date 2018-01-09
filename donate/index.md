@@ -10,11 +10,12 @@ image:
   teaser:
 ---
 
-{% include toc.html %}
 
 All people who contribute to Duplicati are volunteers. We do not get paid, but use our spare time and private resources to keep everything running. Donations helps us take out larger chunks of time to work on Duplicati, pay for hosting and service fees, and generally show us that other appreciate our hard work.
 
 On this page we have listed a few methods for donating to Duplicati.
+
+{% include toc.html %}
 
 ## ![OpenCollective logo]({{ site.url }}/images/opencollective.png "OpenCollective") Donating as a Company
 If you need a receipt, we recommend you donate through [Duplicati OpenCollective](https://opencollective.com/duplicati). OpenCollective is run as a registered company, and **OpenCollective issues a receipt for your contributions**. That way your donation can be booked as an expense. 
