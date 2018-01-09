@@ -32,39 +32,48 @@ We arbitrarily decided to accept the following crypto currencies, and suggest us
 
 #### ![Bitcoin]({{ site.url }}/images/bitcoin.png "Bitcoin") Donate with Bitcoin
 Bitcoin Address: 1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir
+
 ![Bitcoin QR code 1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir]({{ site.url }}/images/bitcoin-qr_new.png "1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir")
 
 
 #### ![Ethereum]({{ site.url }}/images/ethereum.png "Ethereum") Donate with Ethereum
 Ethereum Address: 0xa122e65b01fd18dad0caafc8122e83a3f6cf73a5
+
 ![Ethereum QR code 0xa122e65b01fd18dad0caafc8122e83a3f6cf73a5]({{ site.url }}/images/ethereum-qr.png "0xa122e65b01fd18dad0caafc8122e83a3f6cf73a5")
 
 #### ![Bitcoin cash]({{ site.url }}/images/bitcoincash.png "Bitcoin cash") Donate with Bitcoin Cash
 Bitcoin Cash Address: 165gSZ9UshGyUKPyguWELJ9cbxvmsNzYCw
+
 ![Bitcoin cash QR code 165gSZ9UshGyUKPyguWELJ9cbxvmsNzYCw]({{ site.url }}/images/bitcoin-cash-qr.png "165gSZ9UshGyUKPyguWELJ9cbxvmsNzYCw")
 
 #### ![Siacoin]({{ site.url }}/images/siacoin.png "Siacoin") Donate with Sia
 Sia Address: cd1811d152f8ff8fdbcc7a55ed059f22b9d944cf1208a6258180ca3e78789ac0d98e463a9a92
+
 ![Sia QR code cd1811d152f8ff8fdbcc7a55ed059f22b9d944cf1208a6258180ca3e78789ac0d98e463a9a92]({{ site.url }}/images/bitcoin-cash-qr.png "cd1811d152f8ff8fdbcc7a55ed059f22b9d944cf1208a6258180ca3e78789ac0d98e463a9a92")
 
 #### ![Storj]({{ site.url }}/images/storj.png "Storj") Donate with Storj
 Storj Address: 0x549d724ba23f9bfc51ca953268da278cf1584428
+
 ![Storj QR code 0x549d724ba23f9bfc51ca953268da278cf1584428]({{ site.url }}/images/storj-qr.png "0x549d724ba23f9bfc51ca953268da278cf1584428")
 
 #### ![Litecoin]({{ site.url }}/images/litecoin.png "Litecoin") Donate with Litecoin
 Litecoin Address: LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro
+
 ![Litecoin QR code LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro]({{ site.url }}/images/litecoin-qr.png "LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro")
 
 #### ![Feathercoin]({{ site.url }}/images/feathercoin.png "Feathercoin") Donate with Feathercoin
 Feathercoin Address: 6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53
+
 ![Feathercoin QR code 6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53]({{ site.url }}/images/feathercoin-qr.png "6uohdnDjH9h3safydBNBZhfKmJ3nFJDG53")
 
 #### ![Neo]({{ site.url }}/images/neo.png "Neo") Donate with Neo
 Neo Address: AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi
+
 ![Neo QR code AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi]({{ site.url }}/images/neo-qr.png "AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi")
 
 #### ![Monacoin]({{ site.url }}/images/monacoin.png "Monacoin") Donate with Monacoin
 Monacoin Address: MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w
+
 ![Monacoin QR code MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w]({{ site.url }}/images/monacoin-qr.png "MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w")
 
 ### Bounty Source
