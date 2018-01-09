@@ -32,7 +32,7 @@ Please double check the recipient address, and the token type, before sending an
 We arbitrarily decided to accept the following crypto currencies, and suggest using [Shapeshift.io](https://www.shapeshift.io/) if you want to donate with another currency. By the way, the wallets for BTC, BCH, ETH are held by ourselves. 
 
 <details>
-  <summary><img alt="Bitcoin" src="({{ site.url }}/images/bitcoin.png" /> <b>Donate with Bitcoin</b></summary>
+  <summary><img alt="Bitcoin" src="{{ site.url }}/images/bitcoin.png" /> <b>Donate with Bitcoin</b></summary>
   <img alt="Bitcoin QR code 1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir" src="{{ site.url }}/images/bitcoin-qr_new.png" title="1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir" />
   
   Bitcoin Address: 1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir
