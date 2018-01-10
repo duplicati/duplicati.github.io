@@ -18,7 +18,7 @@ All people who contribute to Duplicati are volunteers. We do not get paid, but u
   <li><a href="#opencollective"><img src="{{ site.url }}/images/opencollective.png" alt="OpenCollective logo" title="OpenCollective"> <b>OpenCollective</b> - Get receipts, track spending</a></li>
   <li><a href="#paypal"><img src="{{ site.url }}/images/paypal.png" alt="PayPal logo" title="PayPal"> <b>PayPal</b> - low fees</a></li>
   <li><a href="#crypto"><img src="{{ site.url }}/images/bitcoin.png" alt="Bitcoin logo" title="Donate with crypto"> <b>Crypto currencies</b> - Instant donations</a></li>
-  <li><a href="#bountysource"><img src="{{ site.url }}/images/bountysource.png" alt="BountySource logo" title="BountySource"> <b>BountySource</b> - Back a specific issue</a></li>
+  <li><a href="#bountysource"><img src="{{ site.url }}/images/bountysource.png" alt="BountySource logo" title="BountySource"> <b>BountySource</b> - Back a specific feature</a></li>
 </ul>
 </nav>
 
