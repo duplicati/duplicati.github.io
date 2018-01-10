@@ -11,26 +11,26 @@ image:
 ---
 
 
-All people who contribute to Duplicati are volunteers. We do not get paid, but use our spare time and private resources to keep everything running. Donations helps us take out larger chunks of time to work on Duplicati, pay for hosting and service fees, and generally show us that other appreciate our hard work.
+All people who contribute to Duplicati are volunteers. We do not get paid, but use our spare time and private resources to keep everything running. Donations help us take out larger chunks of time to work on Duplicati, pay for hosting and service fees, and generally show us your appreciation for our work on Duplicati.
 
 <nav class="toc">
 <ul>
   <li><a href="#opencollective"><img src="{{ site.url }}/images/opencollective.png" alt="OpenCollective logo" title="OpenCollective"> <b>OpenCollective</b> - Get receipts, track spending</a></li>
   <li><a href="#paypal"><img src="{{ site.url }}/images/paypal.png" alt="PayPal logo" title="PayPal"> <b>PayPal</b> - Low fees</a></li>
-  <li><a href="#crypto"><img src="{{ site.url }}/images/bitcoin.png" alt="Bitcoin logo" title="Donate with crypto"> <b>Crypto currencies</b> - Instant donations</a></li>
-  <li><a href="#bountysource"><img src="{{ site.url }}/images/bountysource.png" alt="BountySource logo" title="BountySource"> <b>BountySource</b> - Back a specific feature</a></li>
+  <li><a href="#crypto"><img src="{{ site.url }}/images/bitcoin.png" alt="Bitcoin logo" title="Donate with crypto"> <b>Crypto currencies</b> - We love it!</a></li>
+  <li><a href="#bountysource"><img src="{{ site.url }}/images/bountysource.png" alt="BountySource logo" title="BountySource"> <b>BountySource</b> - Pay for specific features</a></li>
 </ul>
 </nav>
 
 <h2 id="opencollective"><img alt="OpenCollective logo" src="{{ site.url }}/images/opencollective.png" title="OpenCollective" /> OpenCollective</h2>
 
-If you want to donate as a company, we recommend you donate through [Duplicati OpenCollective](https://opencollective.com/duplicati). OpenCollective is a registered company, and **OpenCollective issues receipts for donations**. That way your donation can be booked as an expense in your company. 
+If you are a company and want to support the project, we recommend to donate through [Duplicati OpenCollective](https://opencollective.com/duplicati). OpenCollective is a registered company that issues **receipts for donations**. That way your donation can be officially booked as an expense in your company. 
 
 Furthermore, OpenCollective shows how the donated money is spent by the project members. Note that OpenCollective charges a percentage of the donated amount for their handling services.
 
 <h2 id="paypal"><img src="{{ site.url }}/images/paypal.png" alt="PayPal logo" title="PayPal"> PayPal</h2>
 
-We also accept Donations through the [Duplicati PayPal donation page](https://goo.gl/5TJ4yB). The PayPal donations have so far been used for paying various hosting expenses.
+We also accept Donations through the [Duplicati PayPal donation page](https://goo.gl/5TJ4yB). PayPal donations have so far been used for paying various hosting expenses.
 
 <h2 id="crypto"><img src="{{ site.url }}/images/bitcoin.png" alt="Bitcoin logo" title="Donate with crypto"> Crypto currencies</h2>
 
@@ -105,4 +105,4 @@ We arbitrarily decided to accept the following crypto currencies, and suggest us
 <h2 id="bountysource"><img src="{{ site.url }}/images/bountysource.png" alt="BountySource logo" title="BountySource"> BountySource</h2>
 
 If you want to back a specific feature, first make sure that it is [registered as an issue on Github](https://github.com/duplicati/duplicati/issues), then pledge money for the issue on [Bounty Source](https://www.bountysource.com/teams/duplicati/issues). 
-The person who submits the code that closes an issue can claim the money. The person claiming the bounty does not have to be a Duplicati team member. Backing an issue directly can give incentive for people to contribute to Duplicati, for the benefit of everyone.
+The person who submits the code that closes an issue can claim the money. The person claiming the bounty does not have to be a Duplicati team member. Backing an issue directly is an incentive for people to contribute to Duplicati, for the benefit of everyone.
