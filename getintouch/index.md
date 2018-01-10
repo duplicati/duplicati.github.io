@@ -29,9 +29,6 @@ Besides Kenneth and René many people have contributed to Duplicati. Some have c
 
 
 #### Donations
-Duplicati 2.0 is run by volunteers who spend their spare time to develop great backup software. As the software is given away for free, the project totally relies on donations to run its services. You can donate to the project 
-
-  * [Donate via PayPal](https://goo.gl/5TJ4yB)
-  * [Donate via Bitcoin](bitcoin:1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir)
+Duplicati 2.0 is run by volunteers who spend their spare time to develop great backup software. As the software is given away for free, the project totally relies on donations to run its services. Visit the [Donation page](/donate/) to see options for donating.
 
 
