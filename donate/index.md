@@ -22,17 +22,17 @@ All people who contribute to Duplicati are volunteers. We do not get paid, but u
 </ul>
 </nav>
 
-<h2 id="opencollective"><img alt="OpenCollective logo" src="{{ site.url }}/images/opencollective.png" title="OpenCollective" /> OpenCollective</h2>
+<h2 id="opencollective" name="opencollective"><img alt="OpenCollective logo" src="{{ site.url }}/images/opencollective.png" title="OpenCollective" /> OpenCollective</h2>
 
 If you are a company and want to support the project, we recommend to donate through [Duplicati OpenCollective](https://opencollective.com/duplicati). OpenCollective is a registered company that issues **receipts for donations**. That way your donation can be officially booked as an expense in your company. 
 
 Furthermore, OpenCollective shows how the donated money is spent by the project members. Note that OpenCollective charges a percentage of the donated amount for their handling services.
 
-<h2 id="paypal"><img src="{{ site.url }}/images/paypal.png" alt="PayPal logo" title="PayPal"> PayPal</h2>
+<h2 id="paypal" name="paypal"><img src="{{ site.url }}/images/paypal.png" alt="PayPal logo" title="PayPal"> PayPal</h2>
 
 We also accept Donations through the [Duplicati PayPal donation page](https://goo.gl/5TJ4yB). PayPal donations have so far been used for paying various hosting expenses.
 
-<h2 id="crypto"><img src="{{ site.url }}/images/bitcoin.png" alt="Bitcoin logo" title="Donate with crypto"> Crypto currencies</h2>
+<h2 id="crypto" name="crypto"><img src="{{ site.url }}/images/bitcoin.png" alt="Bitcoin logo" title="Donate with crypto"> Crypto currencies</h2>
 
 We also accept donations in various crypto currencies. Feel free to use the one that you like best. Also, [feel free to ask for your favourite currency to be supported](https://forum.duplicati.com).
 
@@ -102,7 +102,7 @@ We arbitrarily decided to accept the following crypto currencies, and suggest us
   Monacoin Address: MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w
 </details>
 
-<h2 id="bountysource"><img src="{{ site.url }}/images/bountysource.png" alt="BountySource logo" title="BountySource"> BountySource</h2>
+<h2 id="bountysource" name="bountysource"><img src="{{ site.url }}/images/bountysource.png" alt="BountySource logo" title="BountySource"> BountySource</h2>
 
 If you want to back a specific feature, first make sure that it is [registered as an issue on Github](https://github.com/duplicati/duplicati/issues), then pledge money for the issue on [Bounty Source](https://www.bountysource.com/teams/duplicati/issues). 
 The person who submits the code that closes an issue can claim the money. The person claiming the bounty does not have to be a Duplicati team member. Backing an issue directly is an incentive for people to contribute to Duplicati, for the benefit of everyone.
