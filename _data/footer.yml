@@ -20,16 +20,18 @@
 
 - title: Donate
   items:
+  - title: Donate with OpenCollective
+    image: images/opencollective.png
+    url: /donate/#opencollective
+
   - title: Donate via PayPal
     image: images/paypal.png
-    url: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40hexad%2edk&item_name=Duplicati%20Donation&no_shipping=2&no_note=1&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=US
+    url: /donate/#paypal
     
-  - title: Donate Bitcoins
+  - title: Donate with crypto currency
     image: images/bitcoin.png
-    id: bitcoin-qr-trigger
-    url: bitcoin:1Lfzs4EQBtjqQyARfxW1vH5JMRaz7tVCir
+    url: /donate/#crypto
 
-  - title: Donate Siacoins
-    image: images/siacoin.png
-    id: siacoin-qr-trigger
-    url: sc:cd1811d152f8ff8fdbcc7a55ed059f22b9d944cf1208a6258180ca3e78789ac0d98e463a9a92 
+  - title: Donate with Bountysource
+    image: images/bountysource.png
+    url: /donate/#bountysource
