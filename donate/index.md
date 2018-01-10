@@ -17,7 +17,7 @@ All people who contribute to Duplicati are volunteers. We do not get paid, but u
 <ul>
   <li><a href="#opencollective"><img src="{{ site.url }}/images/opencollective.png" alt="OpenCollective logo" title="OpenCollective"> <b>OpenCollective</b> - Get receipts, track spending</a></li>
   <li><a href="#paypal"><img src="{{ site.url }}/images/paypal.png" alt="PayPal logo" title="PayPal"> <b>PayPal</b> - low fees</a></li>
-  <li><a href="#bitcoin"><img src="{{ site.url }}/images/bitcoin.png" alt="Bitcoin logo" title="Donate with crypto"> <b>Crypto currencies</b> - Instant donations</a></li>
+  <li><a href="#crypto"><img src="{{ site.url }}/images/bitcoin.png" alt="Bitcoin logo" title="Donate with crypto"> <b>Crypto currencies</b> - Instant donations</a></li>
   <li><a href="#bountysource"><img src="{{ site.url }}/images/bountysource.png" alt="BountySource logo" title="BountySource"> <b>BountySource</b> - Back a specific issue</a></li>
 </ul>
 </nav>
@@ -32,7 +32,7 @@ Furthermore, OpenCollective shows how the donated money is spent by the project 
 
 We also accept Donations through the [Duplicati PayPal donation page](https://goo.gl/5TJ4yB). The PayPal donations have so far been used for paying various hosting expenses.
 
-<h2 id="bitcoin"><img src="{{ site.url }}/images/bitcoin.png" alt="Bitcoin logo" title="Donate with crypto"> Crypto currencies</h2>
+<h2 id="crypto"><img src="{{ site.url }}/images/bitcoin.png" alt="Bitcoin logo" title="Donate with crypto"> Crypto currencies</h2>
 
 We also accept donations in various crypto currencies. Feel free to use the one that you like best. Also, [feel free to ask for your favourite currency to be supported](https://forum.duplicati.com).
 
