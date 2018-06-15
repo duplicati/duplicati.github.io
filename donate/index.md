@@ -30,7 +30,7 @@ Furthermore, OpenCollective shows how the donated money is spent by the project 
 
 <h2 id="paypal" name="paypal"><img src="{{ site.url }}/images/paypal.png" alt="PayPal logo" title="PayPal"> PayPal</h2>
 
-We also accept Donations through the [Duplicati PayPal donation page](https://goo.gl/5TJ4yB). PayPal donations have so far been used for paying various hosting expenses.
+We also accept Donations through the [Duplicati PayPal donation page](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40hexad.dk&item_name=Duplicati%20Donation&no_shipping=2&no_note=1&tax=0&currency_code=EUR&bn=PP-DonationsBF&charset=UTF-8&lc=US). PayPal donations have so far been used for paying various hosting expenses.
 
 <h2 id="crypto" name="crypto"><img src="{{ site.url }}/images/bitcoin.png" alt="Bitcoin logo" title="Donate with crypto"> Crypto currencies</h2>
 
@@ -79,7 +79,7 @@ We arbitrarily decided to accept the following crypto currencies, and suggest us
   <summary><img alt="Litecoin logo" src="{{ site.url }}/images/litecoin.png" title="Litecoin" /> <b>Donate with Litecoin</b></summary>
   <img alt="Litecoin QR code LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro" src="{{ site.url }}/images/litecoin-qr.png" title="LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro" />
   
-  Litecoin Address: LQWT1CyioWDLB5EL9qotK69VqYbKU6Niro
+  Litecoin Address: MEy3kLHHvr9HkhJnFovn4AeAo5ScZ9nKQ9
 </details>
 
 <details>
@@ -93,13 +93,6 @@ We arbitrarily decided to accept the following crypto currencies, and suggest us
   <img alt="Neo QR code AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi" src="{{ site.url }}/images/neo-qr.png" title="AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi" />
   
   Neo Address: AU3HPqquJWg9Vwqkh4PgRWpo5eQpoUHJEi
-</details>
-
-<details>
-  <summary><img alt="Monacoin logo" src="{{ site.url }}/images/monacoin.png" title="Monacoin" /> <b>Donate with Monacoin</b></summary>
-  <img alt="Monacoin QR code MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w" src="{{ site.url }}/images/monacoin-qr.png" title="MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w" />
-  
-  Monacoin Address: MGmxaFtogUNk6uFju9RmDKFQZx5FkDX75w
 </details>
 
 <h2 id="bountysource" name="bountysource"><img src="{{ site.url }}/images/bountysource.png" alt="BountySource logo" title="BountySource"> BountySource</h2>
