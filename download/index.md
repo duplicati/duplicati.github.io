@@ -20,7 +20,7 @@ image:
     <div id="other-os">
         <div id="other-os-label" style="display: none;">other versions and operating systems:</div>
         <div id="os-windows" class="link"><a id="link-msi64" class="btn" href="https://github.com/duplicati/duplicati/releases"><img src="../images/download/windows.png" />Windows <div class="version-number"></div></a></div>
-        <div id="os-linux-deb" class="link"><a id="link-deb" class="btn" href="https://github.com/duplicati/duplicati/releases"><img src="../images/download/debian.png" />Debian <img src="../images/download/ubuntu.png" />Ubuntu <div class="version-number"></div></a></div>
+        <div id="os-linux-deb" class="link"><a id="link-deb" class="btn" href="https://github.com/duplicati/duplicati/releases"><img src="../images/download/debian.png" />Debian <img src="../images/download/ubuntu.png" />Ubuntu <div class="version-number"></div></a> a <a href="https://www.mono-project.com/download/stable/#download-lin">recent version of mono (mono-runtime)</a> is recommended.</div>
         <div id="os-linux-rpm" class="link"><a id="link-rpm" class="btn" href="https://github.com/duplicati/duplicati/releases"><img src="../images/download/fedora.png" />Fedora <img src="../images/download/redhat.png" />RedHat <div class="version-number"></div></a></div>
         <div id="os-mac" class="link"><a id="link-dmg" class="btn" href="https://github.com/duplicati/duplicati/releases"><img src="../images/download/mac.png" />macOS / OSX <div class="version-number"></div></a></div>
     </div>
