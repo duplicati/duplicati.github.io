@@ -23,7 +23,7 @@ image:
   <div class="twotile">
     <p class="post-icon"><img src="images/home/lgpl-ico.png" /></p>
     <h2 class="post-title">Free software</h2>
-    <p class="post-excerpt">Duplicati is free software and open source. You can use Duplicati for free even for commercial purposes. Source code is licensed under LGPL. Duplicati runs under Windows, Linux, MacOS. It requires .NET 4.5 or Mono.</p>
+    <p class="post-excerpt">Duplicati is free software and open source. You can use Duplicati for free even for commercial purposes. Source code is licensed under LGPL. Duplicati runs under Windows, Linux, MacOS. It requires .NET 4.6.2 or Mono.</p>
   </div>
 
   <div class="twotile">
