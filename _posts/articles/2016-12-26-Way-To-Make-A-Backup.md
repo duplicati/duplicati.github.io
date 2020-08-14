@@ -24,7 +24,7 @@ The commandline interface is the most basic, and thus most flexible, way of runn
 
 For Linux based installations, the alias `duplicati-cli` is a wrapper for invoking `Duplicati.CommandLine.exe`. On macOS, a similar script is provided inside the app bundle, but it is not installed in the default path, as on Linux.
 
-You can use the commandline interface to run "on-demand" backups, or use it within scripts that set up an environment for the backup. On common use is to set it up as scheduled tasks, with the system manager, such as Windows Scheduler or cron.
+You can use the commandline interface to run "on-demand" backups, or use it within scripts that set up an environment for the backup. One common use is to set it up as scheduled tasks, with the system manager, such as Windows Scheduler or cron.
 
 When using the commandline interface, the path to the local database can be supplied with the option `--dbpath=...path...`. If you do not supply this option, the local database will be stored in the user profile folder (`%APPDATA%\Duplicati` on Windows, `~/.config/Duplicati` on others). Additionally a file named `dbconfig.json` is stored in the user profile folder, that maps the destination url to a local database. This system simplifies commandline usage, and is not used from the other interfaces.
 
@@ -45,11 +45,11 @@ On Windows, the backup configuration database is scrambled with a weak RC4 encry
 
 ### Backup Scheduler
 
-The scheduler is very basic and supports a target time, interval and allowed days as configuration parameters. When the server is running, it is also possible to request that a particular backup is started by making HTTP requests to the server. A sample script called `duplicati-control.py` in bundled with Duplicati and can be used to invoke backups from a more configurable scheduler.
+The scheduler is very basic and supports a target time, interval and allowed days as configuration parameters. When the server is running, it is also possible to request that a particular backup is started by making HTTP requests to the server. A sample script called `duplicati-control.py` is bundled with Duplicati and can be used to invoke backups from a more configurable scheduler.
 
 ### The Web Interface
 
-The service includes a full user interface that can be accessed with a browser on http://localhost:8200/. As the server does not use TLS (aka SSL), the server will only respond to requests from the local machine. If you wish to use the server from another machine, make sure that you add the commandline option `--webservice-interface=any` when starting the server, such that it listens for requests from any machine. If you enable this option, make sure you take precautions to ensure that the machine cannot be access from the internet, as the service is not security hardened, and should _NEVER_ be exposed directly to the internet.
+The service includes a full user interface that can be accessed with a browser on http://localhost:8200/. As the server does not use TLS (aka SSL), the server will only respond to requests from the local machine. If you wish to use the server from another machine, make sure that you add the commandline option `--webservice-interface=any` when starting the server, such that it listens for requests from any machine. If you enable this option, make sure you take precautions to ensure that the machine cannot be accessed from the internet, as the service is not security hardened, and should _NEVER_ be exposed directly to the internet.
 
 ### Service Component
 
