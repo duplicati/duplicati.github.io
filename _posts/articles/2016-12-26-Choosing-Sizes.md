@@ -64,7 +64,7 @@ The downside of using larger volumes are seen when restoring files. As Duplicati
 
 Another potential downside of a larger remote volume, is that the compression and encryption usually means that data corruption destroys the entire volume, instead of just a few chunks.
 
-If you have large datasets and a stable connection, it is usually desirable to user a larger volume size. Using volume sizes larger than 1gb usually gives slowdowns as the files are slower to process, but there is no limit applied.
+If you have large datasets and a stable connection, it is usually desirable to use a larger volume size. Using volume sizes larger than 1gb usually gives slowdowns as the files are slower to process, but there is no limit applied.
 
 If you have an unstable connection, you may want to use smaller volume sizes, such that a re-transmit after a failed transfer will not require such a large re-transfer. If you need frequent restores, with often changed data, you may also want to use smaller volume sizes. To reduce the number of remote files in this scenario, consider splitting the backup into separate smaller backups.
 
