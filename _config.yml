@@ -39,7 +39,7 @@ owner:
   name: The Duplicati Team
   email: opensource@duplicati.com
   twitter:
-  analyticsid: UA-25943226-2
+#  analyticsid: UA-25943226-2
 #  gitterroom: Duplicati/Lobby
   google:
     ad-client:
