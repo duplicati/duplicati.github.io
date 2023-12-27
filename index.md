@@ -11,7 +11,7 @@ image:
   <div class="twotile">
     <p class="post-icon"><img src="images/home/backends-ico.png" /></p>
     <h2 class="post-title">Many Backends</h2>
-    <p class="post-excerpt">Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like <a href="https://www.backblaze.com/blog/duplicati-backups-cloud-storage/" alt="Duplicati with Backblaze B2 Cloud Storage" style="color: #989895">Backblaze B2</a>, <a href="https://tardigrade.io/" alt="Backup with Duplicati to Tardigrade" style="color: #989895">Tardigrade</a>, Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, hubiC and <a href="https://duplicati.readthedocs.io/en/latest/01-introduction/#supported-backends" style="color: #989895">many others</a>.</p>
+    <p class="post-excerpt">Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like <a href="https://www.backblaze.com/blog/duplicati-backups-cloud-storage/" alt="Duplicati with Backblaze B2 Cloud Storage" style="color: #989895">Backblaze B2</a>, <a href="https://tardigrade.io/" alt="Backup with Duplicati to Tardigrade" style="color: #989895">Tardigrade</a>, Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, and <a href="https://duplicati.readthedocs.io/en/latest/01-introduction/#supported-backends" style="color: #989895">many others</a>.</p>
   </div>
 
   <div class="twotile">
