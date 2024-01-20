@@ -11,7 +11,7 @@ image:
   <div class="twotile">
     <p class="post-icon"><img src="images/home/backends-ico.png" /></p>
     <h2 class="post-title">Many backends</h2>
-    <p class="post-excerpt">Duplicati works with standard protocols like FTP, SSH, and WebDAV, as well as popular services like <a href="https://www.backblaze.com/blog/duplicati-backups-cloud-storage/" alt="Duplicati with Backblaze B2 Cloud Storage" style="color: #989895">Backblaze B2</a>, <a href="https://tardigrade.io/" alt="Backup with Duplicati to Tardigrade" style="color: #989895">Tardigrade</a>, Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, and <a href="https://duplicati.readthedocs.io/en/latest/01-introduction/#supported-backends" style="color: #989895">many others</a>.</p>
+    <p class="post-excerpt">Duplicati works with standard protocols like FTP, SSH, and WebDAV, as well as popular services like <a href="https://www.backblaze.com/blog/duplicati-backups-cloud-storage/" alt="Duplicati with Backblaze B2 Cloud Storage" style="color: #989895">Backblaze B2</a>, <a href="https://storj.io/" alt="Backup with Duplicati to Storj" style="color: #989895">Storj</a>, Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, and <a href="https://duplicati.readthedocs.io/en/latest/01-introduction/#supported-backends" style="color: #989895">many others</a>.</p>
   </div>
 
   <div class="twotile">
@@ -23,7 +23,7 @@ image:
   <div class="twotile">
     <p class="post-icon"><img src="images/home/lgpl-ico.png" /></p>
     <h2 class="post-title">Free software</h2>
-    <p class="post-excerpt">Duplicati is free software and open source. You can use Duplicati for free, even for commercial purposes. Source code is licensed under LGPL. Duplicati runs under Windows, Linux, and MacOS. It requires .NET 4.5 or Mono.</p>
+    <p class="post-excerpt">Duplicati is free software and open source. You can use Duplicati for free, even for commercial purposes. Source code is licensed under LGPL. Duplicati runs under Windows, Linux, and MacOS. It requires .NET 4.7 or Mono.</p>
   </div>
 
   <div class="twotile">
