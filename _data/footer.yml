@@ -20,14 +20,6 @@
     image: images/opencollective.png
     url: /donate/#opencollective
 
-  - title: Donate via PayPal
-    image: images/paypal.png
-    url: /donate/#paypal
-    
-  - title: Donate with crypto currency
-    image: images/bitcoin.png
-    url: /donate/#crypto
-
   - title: Donate with Bountysource
     image: images/bountysource.png
     url: /donate/#bountysource
