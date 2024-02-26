@@ -1,11 +1,7 @@
 # Footer navigation links
 
 - title: Visit us on
-  items:
-  - title: Visit us on Facebook
-    image: images/facebook.png
-    url: http://www.facebook.com/pages/Duplicati/105118456272281
-    
+  items:    
   - title: Visit our Forum
     image: images/forum.png
     url: https://forum.duplicati.com
