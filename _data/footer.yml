@@ -9,13 +9,3 @@
   - title: Visit us On GitHub
     image: images/github.png
     url: https://github.com/duplicati/duplicati
-
-- title: Donate
-  items:
-  - title: Donate with OpenCollective
-    image: images/opencollective.png
-    url: /donate/#opencollective
-
-  - title: Donate with Bountysource
-    image: images/bountysource.png
-    url: /donate/#bountysource
